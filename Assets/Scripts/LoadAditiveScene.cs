@@ -5,23 +5,35 @@ using UnityEngine.SceneManagement;
 public class LoadAditiveScene : MonoBehaviour
 {
     public string SceneName;
+    AsyncOperation asyncOperation;
+    bool sceneloaded = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (asyncOperation != null)
+        {
+
+            LoadIcon.instance.LoadIconRun(asyncOperation.progress + 0.1f);
+            if (asyncOperation.isDone && LoadIcon.instance)
+            {
+                LoadIcon.instance.LoadIconRun(0);
+                asyncOperation = null;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !sceneloaded)
         {
-            SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Additive);
+            sceneloaded = true;
+            asyncOperation = SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Additive);
         }
     }
 
@@ -30,6 +42,7 @@ public class LoadAditiveScene : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.UnloadSceneAsync(SceneName);
+            sceneloaded = false;
         }
     }
 }
