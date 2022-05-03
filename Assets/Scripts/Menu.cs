@@ -17,12 +17,13 @@ public class Menu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && !pause)
         {
             pause = true;
-           // Time.timeScale = 0;
+            Time.timeScale = 0;
             SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
         }else
             if (Input.GetKeyDown(KeyCode.Escape) && pause)
         {
             SceneManager.UnloadScene("Menu");
+            Time.timeScale = 1;
             pause = false;
         }
 
@@ -32,9 +33,9 @@ public class Menu : MonoBehaviour
     public void StartGame()
     {
         // SceneManager.LoadScene("Land");
+        pause = false; // nao é lido
         SceneManager.UnloadScene("Menu");
-       // Time.timeScale = 1;
-        pause = false;
+        Time.timeScale = 1;
     }
 
     public void Options()
