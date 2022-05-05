@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16322 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 8144 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.32f1\Editor\Unity.exe
+D:\Util\Unity\Editor\2020.3.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/PC/Desktop/23 projeto/openworld/LookAway
+D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59027
-Successfully changed project path to: C:/Users/PC/Desktop/23 projeto/openworld/LookAway
-C:/Users/PC/Desktop/23 projeto/openworld/LookAway
+60559
+Successfully changed project path to: D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
+D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/23 projeto/openworld/LookAway/Assets
+[Subsystems] Discovering subsystems at path D:/Util/Unity/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
     Vendor:   
-    VRAM:     8079 MB
+    VRAM:     1977 MB
     Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.32f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Mono path[0] = 'D:/Util/Unity/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Util/Unity/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Util/Unity/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000839 seconds.
+Register platform support module: D:/Util/Unity/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002390 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 114.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (549ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (431ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (190ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005974 seconds.
+Registered in 0.012937 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 126.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.183 seconds
+- Completed reload, in  1.906 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1184ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1907ms)
+		BeginReloadAssembly (235ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (991ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1592ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (510ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (440ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (660ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4308 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 202.7 MB.
 System memory in use after: 202.9 MB.
 
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4715.
-Total: 5.956700 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.196300 ms MarkObjects: 5.323500 ms  DeleteObjects: 0.139600 ms)
+Total: 7.575200 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.225000 ms MarkObjects: 6.868000 ms  DeleteObjects: 0.178900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,48 +126,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c641a123e23f40e48825b4291e493771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c641a123e23f40e48825b4291e493771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree single must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Plant_5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Plant_5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree arvore3 couldn't be instanced because the prefab contains no valid mesh renderer.
-The tree Rock_2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Rock_4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '8373f0d949bcf64a56e31afc5a3ae751') in 0.187683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 121.494884 seconds.
-  path: Assets/Mods/loading-30.png
-  artifactKey: Guid(384fd8d77a5bf27488f8ec0dd640b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/loading-30.png using Guid(384fd8d77a5bf27488f8ec0dd640b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f305417f277e63df761d0d1a8b8d5c') in 0.077026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.613675 seconds.
   path: Assets/Mods/Objetos3D/tenda1.fbx
   artifactKey: Guid(b3cb86d66b0d2c347ac8f568c7bd2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Objetos3D/tenda1.fbx using Guid(b3cb86d66b0d2c347ac8f568c7bd2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7938bd6d52b43b1d5812e3ffacf5d85f') in 0.407761 seconds 
+Start importing Assets/Mods/Objetos3D/tenda1.fbx using Guid(b3cb86d66b0d2c347ac8f568c7bd2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6ce93e123c6bc83f21a5ecc872a19a') in 0.756962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.387031 seconds.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Mods/Objetos3D/pedra2.fbx
+  artifactKey: Guid(2eb638193e5d211419114fd596c1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pedra2.fbx using Guid(2eb638193e5d211419114fd596c1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb56eb109bd7ad0237e549d09bd4595a') in 0.040979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Mods/Objetos3D/pedra3.fbx
+  artifactKey: Guid(7f6e8d42ca855d3459871769f97559e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pedra3.fbx using Guid(7f6e8d42ca855d3459871769f97559e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aea7b1ff5d6652a06420204ec55236') in 0.028906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Mods/Objetos3D/pedra1.fbx
+  artifactKey: Guid(2989704baca48ac4f9e121a5053fd62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pedra1.fbx using Guid(2989704baca48ac4f9e121a5053fd62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81aa6dff5b2bf96e6b80f78b1bfb677') in 0.026930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.541445 seconds.
   path: Assets/Mods/Texturas/leather_white_diff_4k.jpg
   artifactKey: Guid(10bdc2e9b56ede44fb0ff06e47290633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Texturas/leather_white_diff_4k.jpg using Guid(10bdc2e9b56ede44fb0ff06e47290633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd57088d8a673ef3c8b54ebd105ff63') in 0.011725 seconds 
+Start importing Assets/Mods/Texturas/leather_white_diff_4k.jpg using Guid(10bdc2e9b56ede44fb0ff06e47290633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15267cc7705ae78cf0de3a20b8f5294') in 0.121972 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Mods/Texturas/mossy_rock_diff_4k.jpg
+  artifactKey: Guid(b62cd4858f9ee1a449ee439ce30c2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/mossy_rock_diff_4k.jpg using Guid(b62cd4858f9ee1a449ee439ce30c2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9258d76ec2a067e14b9350a7888e645') in 0.024976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
   path: Assets/Mods/Texturas/plywood_diff_4k.jpg
   artifactKey: Guid(8dfc8b1dbde786443bbfd711eb8d052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Texturas/plywood_diff_4k.jpg using Guid(8dfc8b1dbde786443bbfd711eb8d052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4a9dc9a98f6a53a176b159711d77f0') in 0.012598 seconds 
+Start importing Assets/Mods/Texturas/plywood_diff_4k.jpg using Guid(8dfc8b1dbde786443bbfd711eb8d052b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e933a713e65311c7c1cfd8b5d1e87008') in 0.045359 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.609909 seconds.
-  path: Assets/Mods/Objetos3D/tenda1.fbx
-  artifactKey: Guid(b3cb86d66b0d2c347ac8f568c7bd2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Objetos3D/tenda1.fbx using Guid(b3cb86d66b0d2c347ac8f568c7bd2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2b34f08931cc9fb8cd96b320a7e9c2') in 0.074769 seconds 
+  Time since last request: 0.000560 seconds.
+  path: Assets/Mods/Texturas/rock_boulder_dry_diff_4k.jpg
+  artifactKey: Guid(3c78d6c85446c644c8fa74d98d5cc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/rock_boulder_dry_diff_4k.jpg using Guid(3c78d6c85446c644c8fa74d98d5cc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebd0ff4ada76212329addd3c5e97ba9') in 0.026583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.693391 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.blend
+  artifactKey: Guid(9c44dfab05a8b264399ea9ae8c4d1d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.blend using Guid(9c44dfab05a8b264399ea9ae8c4d1d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e718200ffedb3cfe6638d4c322595a33') in 0.050727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.169290 seconds.
+  path: Assets/Mods/Texturas/slide-1-branch.png
+  artifactKey: Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/slide-1-branch.png using Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ce5826768e2a1f53f2703c506efd2d') in 0.027647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.132834 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.fbx
+  artifactKey: Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.fbx using Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8962459393ae2d5c7b35bf8af725bb9f') in 0.071574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.973115 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.fbx
+  artifactKey: Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.fbx using Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31283ba0fcf15cd1516edbb339c53450') in 0.038976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.983992 seconds.
+  path: Assets/Mods/Objetos3D/arvore.fbx
+  artifactKey: Guid(11c69a0379498144da51596779d1e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore.fbx using Guid(11c69a0379498144da51596779d1e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa23233c0d5244f21ec132d559b52678') in 0.382960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.853174 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.fbx
+  artifactKey: Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.fbx using Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ae94dce1535f658a9040fea7ab47cd') in 0.036350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.106822 seconds.
+  path: Assets/Mods/Texturas/slide-1-branch.png
+  artifactKey: Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/slide-1-branch.png using Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c68f744f57d7d5e4abe3447ecf70d79') in 0.032320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.222368 seconds.
+  path: Assets/Mods/Texturas/slide-1-branch.png
+  artifactKey: Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/slide-1-branch.png using Guid(85885b0e06168404ea27060ca9598b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d7d5c55f4f826601a0bd42dc6c580') in 0.016335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.408835 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.fbx
+  artifactKey: Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.fbx using Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f75a1f483be703b558a4fdbab1d1d') in 0.033580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.389461 seconds.
+  path: Assets/Mods/Objetos3D/arvore2.fbx
+  artifactKey: Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/arvore2.fbx using Guid(b1221f1e62443f745a5a930b60707591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f5647c89f213801d9b07a3e907e697') in 0.019972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.039028 seconds.
+  path: Assets/Mods/Objetos3D/Arvore roxa materials
+  artifactKey: Guid(3e90c30f7da26ab4fa07089fb55454e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/Arvore roxa materials using Guid(3e90c30f7da26ab4fa07089fb55454e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d494117f4ad9af53f4ba3b455e3200') in 0.005371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060422 seconds.
+  path: Assets/Mods/Objetos3D/Arvore roxa materials/Material.002.mat
+  artifactKey: Guid(378d7cf856b68e74b9bac8e3ca4f9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/Arvore roxa materials/Material.002.mat using Guid(378d7cf856b68e74b9bac8e3ca4f9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d79b60afdfe201003a81300110d8f5') in 0.027150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Mods/Objetos3D/Arvore roxa materials/Material.003.mat
+  artifactKey: Guid(e52aab277516b0b4f86b3694fb55dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/Arvore roxa materials/Material.003.mat using Guid(e52aab277516b0b4f86b3694fb55dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9aa5926c5142aaf0ce92813d30d09d') in 0.023203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.265159 seconds.
+  path: Assets/Mods/Objetos3D/Arvore roxa materials/Material.002.mat
+  artifactKey: Guid(378d7cf856b68e74b9bac8e3ca4f9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/Arvore roxa materials/Material.002.mat using Guid(378d7cf856b68e74b9bac8e3ca4f9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc326c7d9ab6e893d1c957cc1bf8dc2') in 0.015723 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
