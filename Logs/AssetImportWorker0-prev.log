@@ -1,129 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16316 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16239 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Nova pasta\Nova pasta\Unity Hub\2020.3.32f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Users/Pichau/Documents/GitHub/LookAway
+E:/githubE/LookAway
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62779
-Successfully changed project path to: D:/Users/Pichau/Documents/GitHub/LookAway
-D:/Users/Pichau/Documents/GitHub/LookAway
+51398
+Successfully changed project path to: E:/githubE/LookAway
+E:/githubE/LookAway
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 105.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
-[Subsystems] Discovering subsystems at path D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Users/Pichau/Documents/GitHub/LookAway/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/githubE/LookAway/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   30.0.14.9676
+    VRAM:     8088 MB
+    Driver:   30.0.15.1259
 Initialize mono
-Mono path[0] = 'D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Nova pasta/Nova pasta/Unity Hub/2020.3.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.002253 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002108 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.644 seconds
 Domain Reload Profiling:
-	ReloadAssembly (717ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (644ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (570ms)
+		EndReloadAssembly (496ms)
 			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (144ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008235 seconds.
+Registered in 0.006238 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.522 seconds
+- Completed reload, in  1.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1523ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1290ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (242ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (384ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (572ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4308 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.8 MB.
-System memory in use after: 202.9 MB.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4715.
-Total: 8.026900 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.121200 ms MarkObjects: 7.284300 ms  DeleteObjects: 0.174900 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4724.
+Total: 6.658700 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.192400 ms MarkObjects: 5.885700 ms  DeleteObjects: 0.203100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,126 +131,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/4_cartoon_terrains_0/NewLayer 1.terrainlayer
-  artifactKey: Guid(88fe2e22d63ed4348bd0541178b9969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/NewLayer 1.terrainlayer using Guid(88fe2e22d63ed4348bd0541178b9969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef27cd5e0885d61485aaa9d919602c8') in 0.095594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/4_cartoon_terrains_0/NewLayer 3.terrainlayer
-  artifactKey: Guid(66e164778a21f99448b554719dd685b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/NewLayer 3.terrainlayer using Guid(66e164778a21f99448b554719dd685b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd306c5051c28e8e4b4dc9b2d744199') in 0.010466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/4_cartoon_terrains_0/StoneFloorTexture (1).png
-  artifactKey: Guid(aa6856bcd7c506c4f951867d6c185ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/StoneFloorTexture (1).png using Guid(aa6856bcd7c506c4f951867d6c185ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d670ef2d21d99e26e87dd88b928d047') in 0.058308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo hierba 256.jpg
-  artifactKey: Guid(3537738b424796c428a5c4929c52d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo hierba 256.jpg using Guid(3537738b424796c428a5c4929c52d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ceba305a98b40aebc63f48db55a6ca') in 0.030790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo hierba.jpg
-  artifactKey: Guid(8b80b929a839c7f45bb0fb89ca17e0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo hierba.jpg using Guid(8b80b929a839c7f45bb0fb89ca17e0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e97bdaf571f41a83468e727a1757e6') in 0.009836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo hierba 1.psd
-  artifactKey: Guid(b050e7f3c700b384f87766ef240566b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo hierba 1.psd using Guid(b050e7f3c700b384f87766ef240566b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeb274a2952d98b77585037c18ba80b') in 0.041409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo tierra.jpg
-  artifactKey: Guid(9b42baa51c85ae145885171747861e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo tierra.jpg using Guid(9b42baa51c85ae145885171747861e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3401132882163bc54a10facbf34b5ce') in 0.009449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo tierra PSD.psd
-  artifactKey: Guid(ec65d521d0e099a4285412b86265c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo tierra PSD.psd using Guid(ec65d521d0e099a4285412b86265c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eb09c6fd5d9f3fc57b92ef934670ee') in 0.009611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo hierba 256.psd
-  artifactKey: Guid(afe84dc9f98852c45b05bf3b4ca29f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo hierba 256.psd using Guid(afe84dc9f98852c45b05bf3b4ca29f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f236e8689fd9bc6101695156012b198') in 0.009719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/4_cartoon_terrains_0/NewLayer.terrainlayer
-  artifactKey: Guid(70fc864fd44585441825824bf89bd56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/NewLayer.terrainlayer using Guid(70fc864fd44585441825824bf89bd56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5598304820156633470e1dd6bcb81c8') in 0.009530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/4_cartoon_terrains_0/textureStone 1.png
-  artifactKey: Guid(e36c9b6ba19e88c4485184a4f21dfd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/textureStone 1.png using Guid(e36c9b6ba19e88c4485184a4f21dfd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b194dd938d44c1601a6f5177f6c7026') in 0.010523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo arena.jpg
-  artifactKey: Guid(c7b21fa430ffd6048bd9c75bcbfa59e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo arena.jpg using Guid(c7b21fa430ffd6048bd9c75bcbfa59e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ba65c32109f8f59a901f3b30621b97') in 0.008943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo nieve 1.jpg
-  artifactKey: Guid(26de80f5f6367c0439179393b9492227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo nieve 1.jpg using Guid(26de80f5f6367c0439179393b9492227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0bcdd6ad8caa323198305d2b79a1e6') in 0.009492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo arena.psd
-  artifactKey: Guid(3f088ab95eeed604aa53a1d1eb88da3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo arena.psd using Guid(3f088ab95eeed604aa53a1d1eb88da3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24af121f0d8831478eb4ac66a3be514e') in 0.008319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo hierba.psd
-  artifactKey: Guid(7779415a740f01042825809f6fbc61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo hierba.psd using Guid(7779415a740f01042825809f6fbc61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ba61f88ca6a2f044a9a269aca44278') in 0.009576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/4_cartoon_terrains_0/textureStone.png
-  artifactKey: Guid(0186c98c109f90441bd27532ea4d631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/textureStone.png using Guid(0186c98c109f90441bd27532ea4d631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6419d5a9aa6e3e73a2c824a6885f9e') in 0.009020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/4_cartoon_terrains_0/Suelo nieve.jpg
-  artifactKey: Guid(e39a675811eba4c41928915b830d392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/Suelo nieve.jpg using Guid(e39a675811eba4c41928915b830d392f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a775ba69c3824ace163edb82c12b7cb4') in 0.009154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/4_cartoon_terrains_0/NewLayer 2.terrainlayer
-  artifactKey: Guid(11154a7cf5908eb47b528b96fdff21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/4_cartoon_terrains_0/NewLayer 2.terrainlayer using Guid(11154a7cf5908eb47b528b96fdff21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa2e3fda797cb2e9d685f0e6e3af3ed') in 0.010257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 262.603668 seconds.
-  path: Assets/ForwardRenderer.asset
-  artifactKey: Guid(7b4901d4df68def4b868927c3ea199fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ForwardRenderer.asset using Guid(7b4901d4df68def4b868927c3ea199fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd264dd56f2a022f6e76b335ad6452041') in 0.009996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/LightweightRenderPipelineAsset.asset
-  artifactKey: Guid(e6022151d2483234da21d9fc7bbec6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LightweightRenderPipelineAsset.asset using Guid(e6022151d2483234da21d9fc7bbec6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c889c7cd302cf6c112289db8ebe15236') in 0.003894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(c641a123e23f40e48825b4291e493771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain.asset using Guid(c641a123e23f40e48825b4291e493771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree single must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
@@ -265,1214 +139,70 @@ The tree Plant_5 must use the Nature/Soft Occlusion shader. Otherwise billboardi
 The tree arvore3 couldn't be instanced because the prefab contains no valid mesh renderer.
 The tree Rock_2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Rock_4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '1a6c630c213711a77175442d39d4eac3') in 0.093959 seconds 
+ -> (artifact id: '1a6c630c213711a77175442d39d4eac3') in 0.144321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/stoneTexture.PNG
-  artifactKey: Guid(6e9bde814b622c34c8d3ee7c62695f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stoneTexture.PNG using Guid(6e9bde814b622c34c8d3ee7c62695f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd0e623a37ea2ee22e96164b8653d74') in 0.062484 seconds 
+  Time since last request: 17.031764 seconds.
+  path: Assets/Scenes/TelaInicial.unity
+  artifactKey: Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TelaInicial.unity using Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb367c9f9379767310facbf57a27f4') in 0.001536 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/textura-de-madeira-fundo-de-placas_395079-6372.jpg
-  artifactKey: Guid(11c15581def68f045b5aaeae43b67ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textura-de-madeira-fundo-de-placas_395079-6372.jpg using Guid(11c15581def68f045b5aaeae43b67ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8757c4d6bd5d6abab08bee4aa1452c2d') in 0.009038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/HangGliderRed.fbx
-  artifactKey: Guid(d0facc88550f1b540a4183d1d8cff8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HangGliderRed.fbx using Guid(d0facc88550f1b540a4183d1d8cff8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843b367eee43d414fde3d83e9f7c4a10') in 0.873029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/New Terrain Material.mat
-  artifactKey: Guid(8a17e173b5adacf41902a83df20b718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain Material.mat using Guid(8a17e173b5adacf41902a83df20b718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6d816dfdc1eda13cc9a0717238b29e') in 0.501259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/RochaTexture.jpg
-  artifactKey: Guid(90e541a5b93910b409ab73d6c7a9ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RochaTexture.jpg using Guid(90e541a5b93910b409ab73d6c7a9ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24463c1721664ec6107e9c628ad705b8') in 0.011767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Torch.prefab
-  artifactKey: Guid(07f8f0ed4cf5bc641828162d4a47c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Torch.prefab using Guid(07f8f0ed4cf5bc641828162d4a47c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf02a2c60c1a7f0c2eefc3f144bdfe4') in 0.012806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.989458 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2ecf1f71a746a1f4ea2f40b477e89b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2ecf1f71a746a1f4ea2f40b477e89b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce68b75a5a8fd6689c49ee81c45283b') in 0.018618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.914431 seconds.
+  Time since last request: 3.370669 seconds.
   path: Assets/Scenes/TelaMorte.unity
   artifactKey: Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaMorte.unity using Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9555a37585bac48489ab669a59dce88f') in 0.002868 seconds 
+Start importing Assets/Scenes/TelaMorte.unity using Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628e5c40b1da08d58300524ed0bd085b') in 0.001780 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.205644 seconds.
-  path: Assets/Mods
-  artifactKey: Guid(06ee3f7bc31fa9c47a1ee62663319975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods using Guid(06ee3f7bc31fa9c47a1ee62663319975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b076a88bd2a35406bed75b5bb1ebaa8f') in 0.002688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.036949 seconds.
-  path: Assets/Mods/loading-30.png
-  artifactKey: Guid(384fd8d77a5bf27488f8ec0dd640b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/loading-30.png using Guid(384fd8d77a5bf27488f8ec0dd640b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f305417f277e63df761d0d1a8b8d5c') in 0.021307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.212116 seconds.
-  path: Assets/Mods/Sprites
-  artifactKey: Guid(3aa3c17b901aa44448c2b08f9c58ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites using Guid(3aa3c17b901aa44448c2b08f9c58ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ca567eaa611a1afdd445044343cebd') in 0.002823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 140.069624 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte
-  artifactKey: Guid(12c084d989073334ea836386956bee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte using Guid(12c084d989073334ea836386956bee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fda4ed8f3effda8784eaf511cf2966') in 0.002591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.816961 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_000.jpg
-  artifactKey: Guid(d772f25b0951878469b53e131c4c4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_000.jpg using Guid(d772f25b0951878469b53e131c4c4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc510a1ac5a6ab373a06398eca3b0e94') in 0.026428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_015.jpg
-  artifactKey: Guid(4ac50057f607a6348b15baa02dd1dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_015.jpg using Guid(4ac50057f607a6348b15baa02dd1dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2322f1ba41f273aeb33f68c25aae77da') in 0.009911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_036.jpg
-  artifactKey: Guid(c323d88ddf24ef44eba03da10e0073d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_036.jpg using Guid(c323d88ddf24ef44eba03da10e0073d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cc05376bb704acddd3648bf81eca61') in 0.009205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_035.jpg
-  artifactKey: Guid(12818ad0a47b9c94faf429e6a879c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_035.jpg using Guid(12818ad0a47b9c94faf429e6a879c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a79f8a1ef3b2e1dc064a9f7f93e2871') in 0.033887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_010.jpg
-  artifactKey: Guid(21a93c405396aa3448dd10f08c2f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_010.jpg using Guid(21a93c405396aa3448dd10f08c2f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff24c80cd0c22d5f275341967a9903c') in 0.008537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_005.jpg
-  artifactKey: Guid(d797261595cade14c99fce2ecf53c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_005.jpg using Guid(d797261595cade14c99fce2ecf53c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb853ee8b2040ea163b50db3178c9d2') in 0.008182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_017.jpg
-  artifactKey: Guid(cfa09065a961af444a0558a27cab0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_017.jpg using Guid(cfa09065a961af444a0558a27cab0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a371e702d8d91114e214ff665cd314') in 0.017705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_034.jpg
-  artifactKey: Guid(0bf86b0dd4daee14c98c0a6b13f76172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_034.jpg using Guid(0bf86b0dd4daee14c98c0a6b13f76172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e37bb580f09f300c5fa793cf0642ec8') in 0.011298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_025.jpg
-  artifactKey: Guid(90b628a63577c3b45b2fb260cf9e9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_025.jpg using Guid(90b628a63577c3b45b2fb260cf9e9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc12efd54f2a42c36c8ee3938b30887') in 0.009944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_006.jpg
-  artifactKey: Guid(dcee1ef10e3078b43a486b8a31812b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_006.jpg using Guid(dcee1ef10e3078b43a486b8a31812b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58151acc876ba01f0fee82f5891476a3') in 0.009224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_033.jpg
-  artifactKey: Guid(b2233707311d37344911b5598c6a3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_033.jpg using Guid(b2233707311d37344911b5598c6a3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b69c3565402c31925206156ebfb5fa') in 0.016751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_011.jpg
-  artifactKey: Guid(da0200c41b5005e42b203b6086b1657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_011.jpg using Guid(da0200c41b5005e42b203b6086b1657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6d3cc1b99b22dc4122626568ff0b65') in 0.013049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_009.jpg
-  artifactKey: Guid(05b672302252c804295bf697f1c34fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_009.jpg using Guid(05b672302252c804295bf697f1c34fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5d8bf391aedaa8df30b7382108a82a') in 0.008209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_032.jpg
-  artifactKey: Guid(93e9395bb9a525e488b4778ee0834a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_032.jpg using Guid(93e9395bb9a525e488b4778ee0834a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f675d6e6061be007c31cbeda5a55e4') in 0.008940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_019.jpg
-  artifactKey: Guid(fe4f730f69bc4664fa9df252dda190c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_019.jpg using Guid(fe4f730f69bc4664fa9df252dda190c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e13cfb043a84c2b250595ba9527547') in 0.007687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_021.jpg
-  artifactKey: Guid(854b9e5a259d06f4da41fd380acf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_021.jpg using Guid(854b9e5a259d06f4da41fd380acf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5564ca058223dc099304166b49dc276') in 0.008669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_012.jpg
-  artifactKey: Guid(60ee2a207f80bd34bb74cc5146c5b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_012.jpg using Guid(60ee2a207f80bd34bb74cc5146c5b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c549a11bf47968ecac835b14220190ed') in 0.007721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_004.jpg
-  artifactKey: Guid(74d60e9191985e54492b37eaff7c8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_004.jpg using Guid(74d60e9191985e54492b37eaff7c8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb59b9a6cf0466bf598c1bf79287226') in 0.007901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_018.jpg
-  artifactKey: Guid(8c621d18f533c4841983d69f6bb5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_018.jpg using Guid(8c621d18f533c4841983d69f6bb5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697be4d1b0b7f237533d59f0ee8005de') in 0.008663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_016.jpg
-  artifactKey: Guid(d34eb1ec1db87f640b73bedf294dbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_016.jpg using Guid(d34eb1ec1db87f640b73bedf294dbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33146811e29fdfc2d6f7c3e7e53aec16') in 0.007534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_001.jpg
-  artifactKey: Guid(ccc0ead7e9efcfe4e847b9957361a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_001.jpg using Guid(ccc0ead7e9efcfe4e847b9957361a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1106ef9c2abc70e8c9691442950490cd') in 0.008543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_026.jpg
-  artifactKey: Guid(d2ae1eeb5fbb73045b244bb79a34dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_026.jpg using Guid(d2ae1eeb5fbb73045b244bb79a34dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85308f7020195659214ad8f17692ad1e') in 0.010303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_008.jpg
-  artifactKey: Guid(90a649a69389b19488be8de32bb9c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_008.jpg using Guid(90a649a69389b19488be8de32bb9c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2844b3b24c583e89210a5005826b4e7a') in 0.008551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_007.jpg
-  artifactKey: Guid(a5f0dd442c81cd748ba9f747effe21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_007.jpg using Guid(a5f0dd442c81cd748ba9f747effe21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16195a26660ab75a5643a1b7fe3e543') in 0.008538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_029.jpg
-  artifactKey: Guid(2897d382a12a62742825b3f930d4c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_029.jpg using Guid(2897d382a12a62742825b3f930d4c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccc80b5826282bd7ee025e25fccf205') in 0.008770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_002.jpg
-  artifactKey: Guid(5db600acd7619c04bab2519e1af3299b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_002.jpg using Guid(5db600acd7619c04bab2519e1af3299b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fecad51bdfaf1eb2304354aaac3538e') in 0.008007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_031.jpg
-  artifactKey: Guid(cf1d6b121d0e0744a99911a33e3c6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_031.jpg using Guid(cf1d6b121d0e0744a99911a33e3c6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbdd82ead37782e392557927949adf9') in 0.025432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_023.jpg
-  artifactKey: Guid(b4bd7519fe47983409ad19d2f294e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_023.jpg using Guid(b4bd7519fe47983409ad19d2f294e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18900fe771dc2a4622dfb0c130ebd5f6') in 0.008566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_020.jpg
-  artifactKey: Guid(f898343de430b06488e9f168d3c8bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_020.jpg using Guid(f898343de430b06488e9f168d3c8bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3d49fcd201147502d4ba38f9579745') in 0.008179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_024.jpg
-  artifactKey: Guid(981468cd6cdce1849a43b431eaa596b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_024.jpg using Guid(981468cd6cdce1849a43b431eaa596b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc554cfaece8b7b059ec4d02eb76f93') in 0.015746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_030.jpg
-  artifactKey: Guid(249e629f4398b5944a830dce6c247e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_030.jpg using Guid(249e629f4398b5944a830dce6c247e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04de8e027aca899b7283fede600cbfbe') in 0.009533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_013.jpg
-  artifactKey: Guid(ec31ab9c948d5674e81ba6363da7aed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_013.jpg using Guid(ec31ab9c948d5674e81ba6363da7aed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd2b9abfcdb7e6392aa125d9a22818') in 0.025463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_014.jpg
-  artifactKey: Guid(a859ef4b8810f4249924eb9269b28faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_014.jpg using Guid(a859ef4b8810f4249924eb9269b28faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92651a85761b9911992614d9e7e4bfef') in 0.009218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_027.jpg
-  artifactKey: Guid(c8e2aa9ed957e634890b300b60d08bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_027.jpg using Guid(c8e2aa9ed957e634890b300b60d08bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9219dcaddf95cbbce6cc46475f500a') in 0.009063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_003.jpg
-  artifactKey: Guid(5c11864a2da051e4998d69283a709e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_003.jpg using Guid(5c11864a2da051e4998d69283a709e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8af4b759230fd7b46bb539d75233e1') in 0.007465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_028.jpg
-  artifactKey: Guid(8208e8b589fcb4e42b91cf9e43113047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_028.jpg using Guid(8208e8b589fcb4e42b91cf9e43113047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcd83d50fc30c7487383c2e76eec4ba') in 0.009596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_022.jpg
-  artifactKey: Guid(0fe227153951cf34a882edcc2a3639df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_022.jpg using Guid(0fe227153951cf34a882edcc2a3639df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf70740dd04b49e02cb11f8153216a3') in 0.008854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.074095 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_037.jpg
-  artifactKey: Guid(ec9b0a95aabac72468b072be3b11b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_037.jpg using Guid(ec9b0a95aabac72468b072be3b11b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8986b6b02fa3ae541209263e4f257767') in 0.010421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_038.jpg
-  artifactKey: Guid(0b3bf5d0d27dee74b9dc4490bdc142ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_038.jpg using Guid(0b3bf5d0d27dee74b9dc4490bdc142ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d9b705d83c36224028eb5b4ef03f1c') in 0.010085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_044.jpg
-  artifactKey: Guid(c4c1a37b2cb85bb48aef62a04384f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_044.jpg using Guid(c4c1a37b2cb85bb48aef62a04384f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf75bc2ea68dd434c04b8868dcdf7631') in 0.009514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_041.jpg
-  artifactKey: Guid(ed2aed90e8d52774093c3f98b8372373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_041.jpg using Guid(ed2aed90e8d52774093c3f98b8372373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea696d10ec3a0a17ed8bb913f47984d1') in 0.010384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_043.jpg
-  artifactKey: Guid(a62a270358bcbb54ab1c92f00cdab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_043.jpg using Guid(a62a270358bcbb54ab1c92f00cdab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85dc32f785629b793560863d40560c') in 0.053014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_045.jpg
-  artifactKey: Guid(2c966bb5db2442f4982dc41267cf82f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_045.jpg using Guid(2c966bb5db2442f4982dc41267cf82f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8885bb23da2479b0bcad16add2f4aed0') in 0.009917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_042.jpg
-  artifactKey: Guid(5dd8bee981c72af43aaf3a70816646c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_042.jpg using Guid(5dd8bee981c72af43aaf3a70816646c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c107f5a8be927bc4e6dcf44a0f8387') in 0.038255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_039.jpg
-  artifactKey: Guid(53241b74e4899644faade254f448bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_039.jpg using Guid(53241b74e4899644faade254f448bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8061404d5c0c564aaeea5d2ecace9c6') in 0.011530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_040.jpg
-  artifactKey: Guid(2dda8eb3087f3514a85205dfb6903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_040.jpg using Guid(2dda8eb3087f3514a85205dfb6903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb01a01a9e99034161ce7bfbf6afa2cd') in 0.009941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035993 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_046.jpg
-  artifactKey: Guid(c5872846907badb4a89fd955a4600228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_046.jpg using Guid(c5872846907badb4a89fd955a4600228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fd94cde3c4ddc34a0ec66618133fcf') in 0.011185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_053.jpg
-  artifactKey: Guid(bc79cb2b34f926f4fbb49f1250a6cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_053.jpg using Guid(bc79cb2b34f926f4fbb49f1250a6cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8403d4f68d43195e23d5a70a594663a') in 0.010091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_058.jpg
-  artifactKey: Guid(f2b4623a06ee8d342b402737c33b43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_058.jpg using Guid(f2b4623a06ee8d342b402737c33b43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa212e8c4c95c4e85585ee4d645732b') in 0.009624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_068.jpg
-  artifactKey: Guid(d1e285225bc220547b13c488f996c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_068.jpg using Guid(d1e285225bc220547b13c488f996c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc72168db5fa9ec479fd73fa299700') in 0.010091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_069.jpg
-  artifactKey: Guid(44633f080bfe46549b146f659a973c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_069.jpg using Guid(44633f080bfe46549b146f659a973c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8476f1e0b04b1247c05054ce44bbfae8') in 0.009357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_070.jpg
-  artifactKey: Guid(3d0d9cea5a12049418e0d2cad1795fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_070.jpg using Guid(3d0d9cea5a12049418e0d2cad1795fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa098f80edbb3fb04706f21dc9be9f') in 0.010465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_071.jpg
-  artifactKey: Guid(9a9ad3e21802ac8438b0c3f75d81998a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_071.jpg using Guid(9a9ad3e21802ac8438b0c3f75d81998a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a954b26d9bc93b515ee54a76dd1843') in 0.009166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_072.jpg
-  artifactKey: Guid(469d88d2ec7dfce429de1a1f791e273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_072.jpg using Guid(469d88d2ec7dfce429de1a1f791e273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5f27f805f87c1ff049e84e0c65b438') in 0.010002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_075.jpg
-  artifactKey: Guid(825d073f445d84d4b9c67a45f68aedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_075.jpg using Guid(825d073f445d84d4b9c67a45f68aedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694e88692eac8d0a131c275cc9ad65bf') in 0.009818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_066.jpg
-  artifactKey: Guid(b01edd276ed6d9849863ddb4ea6dcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_066.jpg using Guid(b01edd276ed6d9849863ddb4ea6dcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321ab103f3157e3de997c6f34db314a0') in 0.009817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_060.jpg
-  artifactKey: Guid(dfc8ccd299f5e72488256bba74551bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_060.jpg using Guid(dfc8ccd299f5e72488256bba74551bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca90f0cd9cbcf435d93601faeb0a697f') in 0.009613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_048.jpg
-  artifactKey: Guid(c480fbe6d8e5ed24498120226664a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_048.jpg using Guid(c480fbe6d8e5ed24498120226664a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53381b6463dabb589ffc34777089ccaf') in 0.010772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_063.jpg
-  artifactKey: Guid(c959b79b1642a3a4f845d3aa2568d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_063.jpg using Guid(c959b79b1642a3a4f845d3aa2568d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bac89670e219af2b717927897d645a') in 0.009926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_047.jpg
-  artifactKey: Guid(b92ca1ea8c9511b4d9cf792c18c28078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_047.jpg using Guid(b92ca1ea8c9511b4d9cf792c18c28078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0890138890297d6858751f9feead79f') in 0.010811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_055.jpg
-  artifactKey: Guid(978b6e88686c31d439da480dede8de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_055.jpg using Guid(978b6e88686c31d439da480dede8de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d6dc69b454e73196c88d82296c643e') in 0.009473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_050.jpg
-  artifactKey: Guid(483ee8005a536a24cbf72e3569ff717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_050.jpg using Guid(483ee8005a536a24cbf72e3569ff717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498d08399a1a61fbd0a9facf4b5c4848') in 0.011266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_054.jpg
-  artifactKey: Guid(4c7ad1fb739a79f4a812c0ecc597432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_054.jpg using Guid(4c7ad1fb739a79f4a812c0ecc597432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64bac273044bad33e280e3d60b22637') in 0.009413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_064.jpg
-  artifactKey: Guid(83a8565fb400d374d9dc5d0c545cd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_064.jpg using Guid(83a8565fb400d374d9dc5d0c545cd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b0422a097a489388b10ce5d732cb00') in 0.010132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_073.jpg
-  artifactKey: Guid(44a4e003ecce33944bc9cbc82f2ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_073.jpg using Guid(44a4e003ecce33944bc9cbc82f2ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a7485daf5448801e81721b5b6155d6') in 0.009492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_062.jpg
-  artifactKey: Guid(d3d16037fcc1d6c4d800c345446b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_062.jpg using Guid(d3d16037fcc1d6c4d800c345446b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090b5c06350cdb03a34b2a16ae171c4e') in 0.010629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_074.jpg
-  artifactKey: Guid(a9c5738b0f9a51a4d93cedbb9db517a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_074.jpg using Guid(a9c5738b0f9a51a4d93cedbb9db517a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac70fd33555dc7d395f1054e25dc9d1') in 0.009575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_061.jpg
-  artifactKey: Guid(58a421adcb929954da90cc1f29bcbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_061.jpg using Guid(58a421adcb929954da90cc1f29bcbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b47c485746d09b09fc0772038a41693') in 0.028760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_056.jpg
-  artifactKey: Guid(53f522a5eaf02cf46be47d060abd8f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_056.jpg using Guid(53f522a5eaf02cf46be47d060abd8f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412517f247a1ab851c023cbbd0ae20a5') in 0.010838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_065.jpg
-  artifactKey: Guid(f466f952bd5936c47916085b717dc7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_065.jpg using Guid(f466f952bd5936c47916085b717dc7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54f4948a73cee089ac837ed6edb0625') in 0.012426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_051.jpg
-  artifactKey: Guid(48533d5cd097c0144ae01a0809ae892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_051.jpg using Guid(48533d5cd097c0144ae01a0809ae892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b113664f452013cfcab72be78ce8e') in 0.009847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_059.jpg
-  artifactKey: Guid(25132aa6eb8e1ab4989d84b7430de734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_059.jpg using Guid(25132aa6eb8e1ab4989d84b7430de734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f2e7ffd9009d30c87c653c32142bf') in 0.009432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_052.jpg
-  artifactKey: Guid(be28125066dddca42bb88ba017a1ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_052.jpg using Guid(be28125066dddca42bb88ba017a1ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43d1d226e62733a6977bfae012e880d') in 0.010714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_057.jpg
-  artifactKey: Guid(547e5903f99c3aa4ca7712ee18d465a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_057.jpg using Guid(547e5903f99c3aa4ca7712ee18d465a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f7425a56bfbc204dba7e1dd85c36fd') in 0.009357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_067.jpg
-  artifactKey: Guid(895dcb5b09c0dc748bcd672b1b2af5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_067.jpg using Guid(895dcb5b09c0dc748bcd672b1b2af5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3d17bc54c5a978607d9103cb3fa4df') in 0.009862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_049.jpg
-  artifactKey: Guid(c42a05cc8fa7b07499b77ed31ef3186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_049.jpg using Guid(c42a05cc8fa7b07499b77ed31ef3186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1eda93388f498f7a3af6753308e497') in 0.009698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.750384 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_010.jpg
-  artifactKey: Guid(21a93c405396aa3448dd10f08c2f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_010.jpg using Guid(21a93c405396aa3448dd10f08c2f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0b4874a6787f03a96f63c9ff4d7ac4') in 0.038033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.032657 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_000.jpg
-  artifactKey: Guid(d772f25b0951878469b53e131c4c4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_000.jpg using Guid(d772f25b0951878469b53e131c4c4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3addf61673a208768ff960c98cc43737') in 0.038362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_015.jpg
-  artifactKey: Guid(4ac50057f607a6348b15baa02dd1dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_015.jpg using Guid(4ac50057f607a6348b15baa02dd1dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835a62f5cc903934bc22caafe28f8abe') in 0.016762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_036.jpg
-  artifactKey: Guid(c323d88ddf24ef44eba03da10e0073d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_036.jpg using Guid(c323d88ddf24ef44eba03da10e0073d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccbc1e157ee5ce923c5cccb6ff76fec') in 0.025425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_035.jpg
-  artifactKey: Guid(12818ad0a47b9c94faf429e6a879c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_035.jpg using Guid(12818ad0a47b9c94faf429e6a879c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d0ef675cf77dc4774154628f40d4d9') in 0.018124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_005.jpg
-  artifactKey: Guid(d797261595cade14c99fce2ecf53c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_005.jpg using Guid(d797261595cade14c99fce2ecf53c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953b2ec741687264be33d204ae729a4a') in 0.020628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_017.jpg
-  artifactKey: Guid(cfa09065a961af444a0558a27cab0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_017.jpg using Guid(cfa09065a961af444a0558a27cab0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203e782addd9e8dc64da456e7de37244') in 0.012726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_034.jpg
-  artifactKey: Guid(0bf86b0dd4daee14c98c0a6b13f76172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_034.jpg using Guid(0bf86b0dd4daee14c98c0a6b13f76172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f589eedc74105788ff77bbb62bf602') in 0.016293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_025.jpg
-  artifactKey: Guid(90b628a63577c3b45b2fb260cf9e9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_025.jpg using Guid(90b628a63577c3b45b2fb260cf9e9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69629ff99a0f1134f57db5565893c25') in 0.017474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_006.jpg
-  artifactKey: Guid(dcee1ef10e3078b43a486b8a31812b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_006.jpg using Guid(dcee1ef10e3078b43a486b8a31812b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071daec16fb422324d0d31690e2d8c4d') in 0.011790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_033.jpg
-  artifactKey: Guid(b2233707311d37344911b5598c6a3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_033.jpg using Guid(b2233707311d37344911b5598c6a3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94c1499f25ce4f7e24fe4899df86eb') in 0.015562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_011.jpg
-  artifactKey: Guid(da0200c41b5005e42b203b6086b1657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_011.jpg using Guid(da0200c41b5005e42b203b6086b1657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4764d524130c300a66e0eb2591ad4434') in 0.011271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_009.jpg
-  artifactKey: Guid(05b672302252c804295bf697f1c34fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_009.jpg using Guid(05b672302252c804295bf697f1c34fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2b2a3d92214e37654b13a67f5eab0') in 0.013694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_032.jpg
-  artifactKey: Guid(93e9395bb9a525e488b4778ee0834a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_032.jpg using Guid(93e9395bb9a525e488b4778ee0834a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8b0a25bf3fe6ad689cd672ac7ec6f6') in 0.025851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_019.jpg
-  artifactKey: Guid(fe4f730f69bc4664fa9df252dda190c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_019.jpg using Guid(fe4f730f69bc4664fa9df252dda190c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316ed38ee98550d319edf246dbbb4489') in 0.012972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_021.jpg
-  artifactKey: Guid(854b9e5a259d06f4da41fd380acf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_021.jpg using Guid(854b9e5a259d06f4da41fd380acf98b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add95d280930a6a424a42f7c6c0a8edd') in 0.013967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_012.jpg
-  artifactKey: Guid(60ee2a207f80bd34bb74cc5146c5b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_012.jpg using Guid(60ee2a207f80bd34bb74cc5146c5b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83965e824090a651c202977aa67d14fb') in 0.012400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_004.jpg
-  artifactKey: Guid(74d60e9191985e54492b37eaff7c8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_004.jpg using Guid(74d60e9191985e54492b37eaff7c8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0c7a0bb830506ca86a0bd193b11c1c') in 0.021622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_018.jpg
-  artifactKey: Guid(8c621d18f533c4841983d69f6bb5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_018.jpg using Guid(8c621d18f533c4841983d69f6bb5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c298bb667d006513c6aa485fa2a5efe') in 0.012712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_016.jpg
-  artifactKey: Guid(d34eb1ec1db87f640b73bedf294dbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_016.jpg using Guid(d34eb1ec1db87f640b73bedf294dbff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aa04d9d4eb52bfd85734337bc1a491') in 0.012866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_001.jpg
-  artifactKey: Guid(ccc0ead7e9efcfe4e847b9957361a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_001.jpg using Guid(ccc0ead7e9efcfe4e847b9957361a5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44352669a0e50be1267abdde446b05e') in 0.013636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_026.jpg
-  artifactKey: Guid(d2ae1eeb5fbb73045b244bb79a34dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_026.jpg using Guid(d2ae1eeb5fbb73045b244bb79a34dd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4a4d6c85019500e21f63e0adbe0843') in 0.014819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_008.jpg
-  artifactKey: Guid(90a649a69389b19488be8de32bb9c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_008.jpg using Guid(90a649a69389b19488be8de32bb9c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c47f1551b9cc86d0c6d06ac8e08922') in 0.020760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_007.jpg
-  artifactKey: Guid(a5f0dd442c81cd748ba9f747effe21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_007.jpg using Guid(a5f0dd442c81cd748ba9f747effe21a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bfef025204e24965a3cefec734f814') in 0.011219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_029.jpg
-  artifactKey: Guid(2897d382a12a62742825b3f930d4c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_029.jpg using Guid(2897d382a12a62742825b3f930d4c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b22e926b11c7e50ae9f5abfcd0a52f') in 0.017823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_002.jpg
-  artifactKey: Guid(5db600acd7619c04bab2519e1af3299b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_002.jpg using Guid(5db600acd7619c04bab2519e1af3299b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1b1cf77f6b13037523de9c1fa8c741') in 0.021424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_031.jpg
-  artifactKey: Guid(cf1d6b121d0e0744a99911a33e3c6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_031.jpg using Guid(cf1d6b121d0e0744a99911a33e3c6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad96970e4fe0bdb173b7f53e8971077') in 0.015360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_023.jpg
-  artifactKey: Guid(b4bd7519fe47983409ad19d2f294e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_023.jpg using Guid(b4bd7519fe47983409ad19d2f294e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c75af30578e47f714addcb6612c3455') in 0.013536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_020.jpg
-  artifactKey: Guid(f898343de430b06488e9f168d3c8bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_020.jpg using Guid(f898343de430b06488e9f168d3c8bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd51bc1380341587b5f0a4cd886f3a5e') in 0.012956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_024.jpg
-  artifactKey: Guid(981468cd6cdce1849a43b431eaa596b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_024.jpg using Guid(981468cd6cdce1849a43b431eaa596b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8154be171cee7b9fdca22cdd8579bf2e') in 0.014328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_030.jpg
-  artifactKey: Guid(249e629f4398b5944a830dce6c247e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_030.jpg using Guid(249e629f4398b5944a830dce6c247e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2079ecac3bb9f5c03a10a1e4faf432') in 0.015211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_013.jpg
-  artifactKey: Guid(ec31ab9c948d5674e81ba6363da7aed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_013.jpg using Guid(ec31ab9c948d5674e81ba6363da7aed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23210cb741be5c6b38eb006094df8fb') in 0.013075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_014.jpg
-  artifactKey: Guid(a859ef4b8810f4249924eb9269b28faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_014.jpg using Guid(a859ef4b8810f4249924eb9269b28faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0131c3fe40826bf0db6b2b8d6527ba') in 0.012583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_027.jpg
-  artifactKey: Guid(c8e2aa9ed957e634890b300b60d08bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_027.jpg using Guid(c8e2aa9ed957e634890b300b60d08bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49a5494e277bef9797206ae4bbf8084') in 0.015447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_003.jpg
-  artifactKey: Guid(5c11864a2da051e4998d69283a709e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_003.jpg using Guid(5c11864a2da051e4998d69283a709e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd16cd71374667492f1589488eb0ee') in 0.035396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_028.jpg
-  artifactKey: Guid(8208e8b589fcb4e42b91cf9e43113047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_028.jpg using Guid(8208e8b589fcb4e42b91cf9e43113047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd17a7e06de41a76ec716a98e93ddea') in 0.016544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_022.jpg
-  artifactKey: Guid(0fe227153951cf34a882edcc2a3639df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_022.jpg using Guid(0fe227153951cf34a882edcc2a3639df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7719b3465e6f6eb170b36989ae968a1') in 0.013931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.451040 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_037.jpg
-  artifactKey: Guid(ec9b0a95aabac72468b072be3b11b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_037.jpg using Guid(ec9b0a95aabac72468b072be3b11b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50a3876a45a135d6f2be0d422bf4d04') in 0.016959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_038.jpg
-  artifactKey: Guid(0b3bf5d0d27dee74b9dc4490bdc142ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_038.jpg using Guid(0b3bf5d0d27dee74b9dc4490bdc142ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6c8965517d3787851ee5fcd45f026d') in 0.014724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_053.jpg
-  artifactKey: Guid(bc79cb2b34f926f4fbb49f1250a6cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_053.jpg using Guid(bc79cb2b34f926f4fbb49f1250a6cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab17851212ba8b937ed30ba74fa2d3fe') in 0.015932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_058.jpg
-  artifactKey: Guid(f2b4623a06ee8d342b402737c33b43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_058.jpg using Guid(f2b4623a06ee8d342b402737c33b43f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c21503c78467da84de89c0709d3012a') in 0.016294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_046.jpg
-  artifactKey: Guid(c5872846907badb4a89fd955a4600228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_046.jpg using Guid(c5872846907badb4a89fd955a4600228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ec9e9480cc712d81cf2a68953cd92') in 0.015216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_044.jpg
-  artifactKey: Guid(c4c1a37b2cb85bb48aef62a04384f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_044.jpg using Guid(c4c1a37b2cb85bb48aef62a04384f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d798a2aa6e3a67ed2d1f6c08dc22371') in 0.016499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_060.jpg
-  artifactKey: Guid(dfc8ccd299f5e72488256bba74551bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_060.jpg using Guid(dfc8ccd299f5e72488256bba74551bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb18088dc9a8886f95f33fd9ed0e0f') in 0.015344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_048.jpg
-  artifactKey: Guid(c480fbe6d8e5ed24498120226664a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_048.jpg using Guid(c480fbe6d8e5ed24498120226664a9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d83b3e45a98707800d28d8800ac380d') in 0.015001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_063.jpg
-  artifactKey: Guid(c959b79b1642a3a4f845d3aa2568d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_063.jpg using Guid(c959b79b1642a3a4f845d3aa2568d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e630d0fa0e22c1c965e9a1edd126af5') in 0.046834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_041.jpg
-  artifactKey: Guid(ed2aed90e8d52774093c3f98b8372373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_041.jpg using Guid(ed2aed90e8d52774093c3f98b8372373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d024c8864ff672aeaf421ddc799ce8') in 0.153119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_068.jpg
-  artifactKey: Guid(d1e285225bc220547b13c488f996c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_068.jpg using Guid(d1e285225bc220547b13c488f996c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e31bd39d50cc23b77c229065d2acbc') in 0.017924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_069.jpg
-  artifactKey: Guid(44633f080bfe46549b146f659a973c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_069.jpg using Guid(44633f080bfe46549b146f659a973c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf85dc5c9a0941808c9d0917ae0e0b') in 0.014953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_070.jpg
-  artifactKey: Guid(3d0d9cea5a12049418e0d2cad1795fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_070.jpg using Guid(3d0d9cea5a12049418e0d2cad1795fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef3c7db3eac947da754191b081a7965') in 0.016091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_071.jpg
-  artifactKey: Guid(9a9ad3e21802ac8438b0c3f75d81998a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_071.jpg using Guid(9a9ad3e21802ac8438b0c3f75d81998a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e40bb2c56fbb22b99bef8c9e7e11827') in 0.014899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_072.jpg
-  artifactKey: Guid(469d88d2ec7dfce429de1a1f791e273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_072.jpg using Guid(469d88d2ec7dfce429de1a1f791e273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3032d1bf04fe0e73906352c367529df') in 0.015413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_075.jpg
-  artifactKey: Guid(825d073f445d84d4b9c67a45f68aedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_075.jpg using Guid(825d073f445d84d4b9c67a45f68aedc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7f6edda61665501275ca795da11690') in 0.016479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_066.jpg
-  artifactKey: Guid(b01edd276ed6d9849863ddb4ea6dcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_066.jpg using Guid(b01edd276ed6d9849863ddb4ea6dcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7338947ee3929d43e5847e9b6f1489') in 0.015278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_043.jpg
-  artifactKey: Guid(a62a270358bcbb54ab1c92f00cdab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_043.jpg using Guid(a62a270358bcbb54ab1c92f00cdab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c656d7213ff4417989381082803574') in 0.015762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_045.jpg
-  artifactKey: Guid(2c966bb5db2442f4982dc41267cf82f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_045.jpg using Guid(2c966bb5db2442f4982dc41267cf82f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6b1f60e56f80100cf4df3264f7c9e') in 0.016775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_047.jpg
-  artifactKey: Guid(b92ca1ea8c9511b4d9cf792c18c28078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_047.jpg using Guid(b92ca1ea8c9511b4d9cf792c18c28078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aa61e745dbe7a93a304e84adfc3c53') in 0.015192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_055.jpg
-  artifactKey: Guid(978b6e88686c31d439da480dede8de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_055.jpg using Guid(978b6e88686c31d439da480dede8de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aa94dd081ff08424a5ca370e375f43') in 0.015476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_050.jpg
-  artifactKey: Guid(483ee8005a536a24cbf72e3569ff717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_050.jpg using Guid(483ee8005a536a24cbf72e3569ff717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66889e29f9269d0de4d3dcd985d1f6a') in 0.015962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_042.jpg
-  artifactKey: Guid(5dd8bee981c72af43aaf3a70816646c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_042.jpg using Guid(5dd8bee981c72af43aaf3a70816646c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670f3d6ad10c349a5428d392af38f3ea') in 0.014580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_054.jpg
-  artifactKey: Guid(4c7ad1fb739a79f4a812c0ecc597432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_054.jpg using Guid(4c7ad1fb739a79f4a812c0ecc597432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824d08ae9aaf2552e076d2468d0127a2') in 0.015006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_064.jpg
-  artifactKey: Guid(83a8565fb400d374d9dc5d0c545cd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_064.jpg using Guid(83a8565fb400d374d9dc5d0c545cd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42dfb86941d007cd042cbdefc3e99f7') in 0.016697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_073.jpg
-  artifactKey: Guid(44a4e003ecce33944bc9cbc82f2ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_073.jpg using Guid(44a4e003ecce33944bc9cbc82f2ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244c8be67f840c5e4267a5b72ebd059a') in 0.015643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_062.jpg
-  artifactKey: Guid(d3d16037fcc1d6c4d800c345446b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_062.jpg using Guid(d3d16037fcc1d6c4d800c345446b4a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347758076af4705c26f79db57a4df5c1') in 0.015281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_074.jpg
-  artifactKey: Guid(a9c5738b0f9a51a4d93cedbb9db517a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_074.jpg using Guid(a9c5738b0f9a51a4d93cedbb9db517a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452986d735c89927442d649e207b980e') in 0.020660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_061.jpg
-  artifactKey: Guid(58a421adcb929954da90cc1f29bcbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_061.jpg using Guid(58a421adcb929954da90cc1f29bcbcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df066f52fe5ac82db87682b3a885b4af') in 0.017366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_056.jpg
-  artifactKey: Guid(53f522a5eaf02cf46be47d060abd8f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_056.jpg using Guid(53f522a5eaf02cf46be47d060abd8f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c325f226b4a96c7090647c033db7e64') in 0.015499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_065.jpg
-  artifactKey: Guid(f466f952bd5936c47916085b717dc7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_065.jpg using Guid(f466f952bd5936c47916085b717dc7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395dbe3206c81cc900c3aab0817d4b34') in 0.015325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_051.jpg
-  artifactKey: Guid(48533d5cd097c0144ae01a0809ae892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_051.jpg using Guid(48533d5cd097c0144ae01a0809ae892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed80b84325a1fe55d035438839b1e03') in 0.016450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_039.jpg
-  artifactKey: Guid(53241b74e4899644faade254f448bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_039.jpg using Guid(53241b74e4899644faade254f448bf99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0422b2b7da724761d9c152591ee8d0') in 0.015688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_059.jpg
-  artifactKey: Guid(25132aa6eb8e1ab4989d84b7430de734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_059.jpg using Guid(25132aa6eb8e1ab4989d84b7430de734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcd7ce7764455622a64e985d7d78d2e') in 0.015679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_052.jpg
-  artifactKey: Guid(be28125066dddca42bb88ba017a1ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_052.jpg using Guid(be28125066dddca42bb88ba017a1ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e48ab53fd28dec05714e0902cdc52a') in 0.015926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_057.jpg
-  artifactKey: Guid(547e5903f99c3aa4ca7712ee18d465a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_057.jpg using Guid(547e5903f99c3aa4ca7712ee18d465a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0fe0d99a4b55ce5b32e179ead4df5a') in 0.015354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_040.jpg
-  artifactKey: Guid(2dda8eb3087f3514a85205dfb6903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_040.jpg using Guid(2dda8eb3087f3514a85205dfb6903ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab4078f7009611e5f1a7410b80ac9d0') in 0.015227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_067.jpg
-  artifactKey: Guid(895dcb5b09c0dc748bcd672b1b2af5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_067.jpg using Guid(895dcb5b09c0dc748bcd672b1b2af5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dfdb9d81fb9f51f39d0bbb51abac43') in 0.016638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/Composição 1_049.jpg
-  artifactKey: Guid(c42a05cc8fa7b07499b77ed31ef3186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/Composição 1_049.jpg using Guid(c42a05cc8fa7b07499b77ed31ef3186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02992869e3cc4090202d0879dd0a617') in 0.016464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.977732 seconds.
-  path: Assets/Mods/Sprites/TelaDeMorte/TelaDeMorte.anim
-  artifactKey: Guid(7c7990d1e37b1e440a85ae1b9b078615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaDeMorte/TelaDeMorte.anim using Guid(7c7990d1e37b1e440a85ae1b9b078615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb521ba672a17b3e47d4ef612789877b') in 0.004831 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006192 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.386 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1386ms)
-		BeginReloadAssembly (167ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1155ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.9 MB.
-System memory in use after: 192.1 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4816.
-Total: 9.109200 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.111900 ms MarkObjects: 8.444500 ms  DeleteObjects: 0.177400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1064.999005 seconds.
+  Time since last request: 16.647543 seconds.
   path: Assets/Scenes/Land.unity
   artifactKey: Guid(b3d4126d058fc1a47a4df48502a6a692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Land.unity using Guid(b3d4126d058fc1a47a4df48502a6a692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663249ebe789916d5115bce708ce4cf1') in 0.009298 seconds 
+Start importing Assets/Scenes/Land.unity using Guid(b3d4126d058fc1a47a4df48502a6a692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663249ebe789916d5115bce708ce4cf1') in 0.002110 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007242 seconds.
+Registered in 0.005849 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.484 seconds
+- Completed reload, in  1.360 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1485ms)
+	ReloadAssembly (1361ms)
 		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1257ms)
-			LoadAssemblies (134ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (410ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
 			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.6 MB.
-System memory in use after: 191.7 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4819.
-Total: 8.464900 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.121300 ms MarkObjects: 7.783400 ms  DeleteObjects: 0.157100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 98.437718 seconds.
-  path: Assets/Scenes/TelaMorte.unity
-  artifactKey: Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaMorte.unity using Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf38c47294f2d4f88811c6dfba780cad') in 0.011070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 329.684101 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(832f1caa5a9dd3a488db77eb49eb1e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(832f1caa5a9dd3a488db77eb49eb1e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b926585c13b4deb5325f7d0a4360e954') in 0.002495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.092615 seconds.
-  path: Assets/Sounds/02 - Field (Day).mp3
-  artifactKey: Guid(85b226cee061b2e428b2907756177b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/02 - Field (Day).mp3 using Guid(85b226cee061b2e428b2907756177b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb12eee5825da78e21afcc78e8e9e0c7') in 0.079529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sounds/074 - Hyrule Field (Night).mp3
-  artifactKey: Guid(e306de6bb89d4f64083db155776aa31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/074 - Hyrule Field (Night).mp3 using Guid(e306de6bb89d4f64083db155776aa31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab6ba97487debc998dca3f8f47371d1') in 0.017088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/Sounds/427400__imjeax__forest-ambient-loop.wav
-  artifactKey: Guid(e78aaf24affa5864cb017f0dd0bde8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/427400__imjeax__forest-ambient-loop.wav using Guid(e78aaf24affa5864cb017f0dd0bde8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3537d7873b6bd74da54b603b2726d23') in 0.012145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Sounds/Sfx.mixer
-  artifactKey: Guid(57c12f1fe0df8e641928be5474db6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sfx.mixer using Guid(57c12f1fe0df8e641928be5474db6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2f024fcab479e140b133a2b8dcd458') in 0.005276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Sounds/403357__corpocracy__ambient-okavangonight02.mp3
-  artifactKey: Guid(dd276b7a1f6ea7a419a26bfa150c7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/403357__corpocracy__ambient-okavangonight02.mp3 using Guid(dd276b7a1f6ea7a419a26bfa150c7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494dd681df6c434761eb11d4b657c4b8') in 0.012592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.355560 seconds.
-  path: Assets/Sounds/DarkMusic.mp3
-  artifactKey: Guid(4f22edb6a00382242b2945805a1361fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/DarkMusic.mp3 using Guid(4f22edb6a00382242b2945805a1361fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d0c55318e9ba5a1cd1dfd2d5524c4c') in 0.010802 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006565 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.326 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1327ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (430ms)
-				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.7 MB.
-System memory in use after: 191.8 MB.
+Unloading 4083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.5 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4825.
-Total: 7.899500 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.116300 ms MarkObjects: 7.185000 ms  DeleteObjects: 0.148500 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4735.
+Total: 6.415000 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.182900 ms MarkObjects: 5.730300 ms  DeleteObjects: 0.199400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1486,595 +216,533 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 378.287519 seconds.
-  path: Assets/Sounds/Y2mate.mx - Som de uma Risada Maléfica (Sound effects-free) LINK NA DESCRIÇÃO (128 kbps).mp3
-  artifactKey: Guid(5fad254fb4545cf469e0ec28eeea2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Y2mate.mx - Som de uma Risada Maléfica (Sound effects-free) LINK NA DESCRIÇÃO (128 kbps).mp3 using Guid(5fad254fb4545cf469e0ec28eeea2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef560d627592b3b5039013254a743da') in 0.060370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.706074 seconds.
-  path: Assets/Sounds/Risada.mp3
-  artifactKey: Guid(5fad254fb4545cf469e0ec28eeea2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Risada.mp3 using Guid(5fad254fb4545cf469e0ec28eeea2f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0184c3f25fc386a97d493d9abd8c7377') in 0.009383 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.363 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1363ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1152ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.7 MB.
-System memory in use after: 191.9 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4829.
-Total: 7.419800 ms (FindLiveObjects: 0.359500 ms CreateObjectMapping: 0.111500 ms MarkObjects: 6.806400 ms  DeleteObjects: 0.140900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 100.087005 seconds.
-  path: Assets/Scenes/TelaInicial.unity
-  artifactKey: Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaInicial.unity using Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c838e5c226de0f2043fbf2cc86f9a8') in 0.010334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.035728 seconds.
+  Time since last request: 220.307301 seconds.
   path: Assets/Scenes/Shirines
   artifactKey: Guid(94d539e6a775e5f469ef6eb2a13b72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shirines using Guid(94d539e6a775e5f469ef6eb2a13b72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e097f6a77dbdf27a505549881a4c761') in 0.002562 seconds 
+Start importing Assets/Scenes/Shirines using Guid(94d539e6a775e5f469ef6eb2a13b72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e097f6a77dbdf27a505549881a4c761') in 0.008877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.943681 seconds.
-  path: Assets/Mods/Sprites/TelaInicial
-  artifactKey: Guid(712c50555882dc9438b2ec3713f57a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial using Guid(712c50555882dc9438b2ec3713f57a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc9982ee7f02947250343f0ea30e10b') in 0.002774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.285651 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_000.jpg
-  artifactKey: Guid(a76a8609e1283a445bca50fad2754d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_000.jpg using Guid(a76a8609e1283a445bca50fad2754d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774c79a5fab6f3127c0e63c32a9bbeee') in 0.050153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_016.jpg
-  artifactKey: Guid(729fac49cd25b634e90c56c7cc6492ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_016.jpg using Guid(729fac49cd25b634e90c56c7cc6492ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ffd980427d2e4be038bb9cd25d7f5') in 0.008863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_017.jpg
-  artifactKey: Guid(569c4056758399f42a91af64c1335cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_017.jpg using Guid(569c4056758399f42a91af64c1335cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329a70528da9d94299265bc93582ef37') in 0.009198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_004.jpg
-  artifactKey: Guid(95fe41bc8464a65449ee1e08faf48a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_004.jpg using Guid(95fe41bc8464a65449ee1e08faf48a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f20bbb5595e29aedb75192a3a79662') in 0.008108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_005.jpg
-  artifactKey: Guid(131f80637134d884e8866ee1037400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_005.jpg using Guid(131f80637134d884e8866ee1037400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6b3d08026ae233b34e99d14906decb') in 0.027147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_015.jpg
-  artifactKey: Guid(345bf50965daecc4ab63c178040dd5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_015.jpg using Guid(345bf50965daecc4ab63c178040dd5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736398da34083f288ab3468054e8427d') in 0.011259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_014.jpg
-  artifactKey: Guid(5545e6fe0f8ad1540a1c0d40d095cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_014.jpg using Guid(5545e6fe0f8ad1540a1c0d40d095cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffa9d9ed6ef7b1679e1e3d12d1f71a6') in 0.012393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_007.jpg
-  artifactKey: Guid(85f8e9efec5b0134d9977b6647f7900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_007.jpg using Guid(85f8e9efec5b0134d9977b6647f7900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eba856e8fe60b83862d1903ddf32bc') in 0.023389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_011.jpg
-  artifactKey: Guid(5b93fe7372973314186c185c8358d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_011.jpg using Guid(5b93fe7372973314186c185c8358d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437ff701fc8b7aa3f14b266a2a985828') in 0.016524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_020.jpg
-  artifactKey: Guid(218aba534b9dcd841813d124e4b1f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_020.jpg using Guid(218aba534b9dcd841813d124e4b1f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b8edfc6f16252527bc7f84e75db126') in 0.019878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_009.jpg
-  artifactKey: Guid(d997f17af0739354f9733b89699885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_009.jpg using Guid(d997f17af0739354f9733b89699885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97522a8ad547841f1be6f7bf1f892df8') in 0.011864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_018.jpg
-  artifactKey: Guid(32a0e748885d01d418035d777153921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_018.jpg using Guid(32a0e748885d01d418035d777153921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab859ac784d167ea0d9947b8fa85255') in 0.041737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_008.jpg
-  artifactKey: Guid(da4fed1ccf34e9c4abc0e926d8197530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_008.jpg using Guid(da4fed1ccf34e9c4abc0e926d8197530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82ec46c0ae17fbb1ee29c9132a36ce5') in 0.008681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_019.jpg
-  artifactKey: Guid(71e9ed87cd118d244be1ba9fc37f1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_019.jpg using Guid(71e9ed87cd118d244be1ba9fc37f1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a67a071578cd925094d349279a7603') in 0.012599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_012.jpg
-  artifactKey: Guid(f34329bc2ad90944bbba6de5e16b2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_012.jpg using Guid(f34329bc2ad90944bbba6de5e16b2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2da44a4fc9430f5baf2ef9ff19ebb1') in 0.008317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_010.jpg
-  artifactKey: Guid(456ff8a0043f28f4494635feb83dc947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_010.jpg using Guid(456ff8a0043f28f4494635feb83dc947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de1664769738259d33f1d4661d6bf51') in 0.007784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_001.jpg
-  artifactKey: Guid(d145e080c13a7b34d9b6cfa4300b4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_001.jpg using Guid(d145e080c13a7b34d9b6cfa4300b4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c04cba457611c10c53e7a6c94f9c4a') in 0.008262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_002.jpg
-  artifactKey: Guid(e505f76e6bab6dc4ab91ea4709e25afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_002.jpg using Guid(e505f76e6bab6dc4ab91ea4709e25afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae136b5c0425d3660f98e78dee19c08') in 0.009196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_021.jpg
-  artifactKey: Guid(8eaa6d44d69febf48b6bfdb6cc4fab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_021.jpg using Guid(8eaa6d44d69febf48b6bfdb6cc4fab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d34e5f368e0dd00f6e7886e9706b2') in 0.008503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_013.jpg
-  artifactKey: Guid(f4fe807508576774e823770ddbd0783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_013.jpg using Guid(f4fe807508576774e823770ddbd0783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1524c699739cbd21e7a9fe85860191cd') in 0.008356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_006.jpg
-  artifactKey: Guid(4462c3f2b6339c345b2c56ae0f6fe933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_006.jpg using Guid(4462c3f2b6339c345b2c56ae0f6fe933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78200c095d2e08155f56f7eb0ce18d51') in 0.007926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_003.jpg
-  artifactKey: Guid(d466109acb0cb3745a52a1127433ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_003.jpg using Guid(d466109acb0cb3745a52a1127433ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a953158771c08d147f630a79cbcc1a') in 0.008694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 96.040436 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_000.jpg
-  artifactKey: Guid(a76a8609e1283a445bca50fad2754d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_000.jpg using Guid(a76a8609e1283a445bca50fad2754d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683359bd27ee975ea067282e021fec7b') in 0.219168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_016.jpg
-  artifactKey: Guid(729fac49cd25b634e90c56c7cc6492ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_016.jpg using Guid(729fac49cd25b634e90c56c7cc6492ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be93a189972786b38d505bc62203fab') in 0.019015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_017.jpg
-  artifactKey: Guid(569c4056758399f42a91af64c1335cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_017.jpg using Guid(569c4056758399f42a91af64c1335cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d0c02eac693c474e0df4951ce1c18e') in 0.029892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_004.jpg
-  artifactKey: Guid(95fe41bc8464a65449ee1e08faf48a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_004.jpg using Guid(95fe41bc8464a65449ee1e08faf48a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110e1b1c8590a974caa14177889c6f5f') in 0.023147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_005.jpg
-  artifactKey: Guid(131f80637134d884e8866ee1037400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_005.jpg using Guid(131f80637134d884e8866ee1037400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd118a8a28d2aaf3c1a2ba379478d064') in 0.025262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_015.jpg
-  artifactKey: Guid(345bf50965daecc4ab63c178040dd5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_015.jpg using Guid(345bf50965daecc4ab63c178040dd5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4813f1c9511c09ca14470cd5e4411e0') in 0.049121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_014.jpg
-  artifactKey: Guid(5545e6fe0f8ad1540a1c0d40d095cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_014.jpg using Guid(5545e6fe0f8ad1540a1c0d40d095cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea4beb216239bb544ede243bf3cb69b') in 0.014675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_007.jpg
-  artifactKey: Guid(85f8e9efec5b0134d9977b6647f7900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_007.jpg using Guid(85f8e9efec5b0134d9977b6647f7900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a23f5e5b591f6fd4407d3f1796d45b') in 0.012777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_011.jpg
-  artifactKey: Guid(5b93fe7372973314186c185c8358d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_011.jpg using Guid(5b93fe7372973314186c185c8358d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fa41f4c60c02239be38460a747f609') in 0.013400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_020.jpg
-  artifactKey: Guid(218aba534b9dcd841813d124e4b1f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_020.jpg using Guid(218aba534b9dcd841813d124e4b1f680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127b77308c8d5fedefefe7233f9b67cf') in 0.014081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_009.jpg
-  artifactKey: Guid(d997f17af0739354f9733b89699885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_009.jpg using Guid(d997f17af0739354f9733b89699885ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84e32425b67c5a9394e69613c850506') in 0.012530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_018.jpg
-  artifactKey: Guid(32a0e748885d01d418035d777153921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_018.jpg using Guid(32a0e748885d01d418035d777153921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dde894b80c97b9a4e8997a14759d45') in 0.013721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_008.jpg
-  artifactKey: Guid(da4fed1ccf34e9c4abc0e926d8197530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_008.jpg using Guid(da4fed1ccf34e9c4abc0e926d8197530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9567f4f5b469fb533306eee2d27df69') in 0.012862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_019.jpg
-  artifactKey: Guid(71e9ed87cd118d244be1ba9fc37f1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_019.jpg using Guid(71e9ed87cd118d244be1ba9fc37f1d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681aa5a61d5577c070c6be498efc9387') in 0.013295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_012.jpg
-  artifactKey: Guid(f34329bc2ad90944bbba6de5e16b2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_012.jpg using Guid(f34329bc2ad90944bbba6de5e16b2afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6755680f1f8f6a8554ad3bee7e0d66a') in 0.013079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_010.jpg
-  artifactKey: Guid(456ff8a0043f28f4494635feb83dc947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_010.jpg using Guid(456ff8a0043f28f4494635feb83dc947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8754aaebf433ac18433d15ab75683916') in 0.012609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_001.jpg
-  artifactKey: Guid(d145e080c13a7b34d9b6cfa4300b4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_001.jpg using Guid(d145e080c13a7b34d9b6cfa4300b4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6372d35d1ee19df1555e663081620d63') in 0.015028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_002.jpg
-  artifactKey: Guid(e505f76e6bab6dc4ab91ea4709e25afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_002.jpg using Guid(e505f76e6bab6dc4ab91ea4709e25afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf875a80565da100761ce79291177606') in 0.014139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_021.jpg
-  artifactKey: Guid(8eaa6d44d69febf48b6bfdb6cc4fab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_021.jpg using Guid(8eaa6d44d69febf48b6bfdb6cc4fab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710bf5b0cd2d20337a96a03bbc6cce92') in 0.014438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_013.jpg
-  artifactKey: Guid(f4fe807508576774e823770ddbd0783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_013.jpg using Guid(f4fe807508576774e823770ddbd0783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d377bad88e44224aa815cc17904e35') in 0.014008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_006.jpg
-  artifactKey: Guid(4462c3f2b6339c345b2c56ae0f6fe933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_006.jpg using Guid(4462c3f2b6339c345b2c56ae0f6fe933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d9e0d4bb020c08c6fcf57600d37fee') in 0.012728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Mods/Sprites/TelaInicial/Composição 1_1_003.jpg
-  artifactKey: Guid(d466109acb0cb3745a52a1127433ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mods/Sprites/TelaInicial/Composição 1_1_003.jpg using Guid(d466109acb0cb3745a52a1127433ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c837cc0736d3357682a0ee5bec1136') in 0.012635 seconds 
+  Time since last request: 1.724769 seconds.
+  path: Assets/Scenes/Shirines/Shrine01.unity
+  artifactKey: Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shirines/Shrine01.unity using Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847c4eebeace7966366a77a9fc7f36e2') in 0.001380 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006957 seconds.
+Registered in 0.005445 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.330 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1330ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1132ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.8 MB.
-System memory in use after: 191.9 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4835.
-Total: 7.905400 ms (FindLiveObjects: 0.521900 ms CreateObjectMapping: 0.119700 ms MarkObjects: 7.105200 ms  DeleteObjects: 0.157400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006868 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.316 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.8 MB.
-System memory in use after: 191.9 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4838.
-Total: 8.689000 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.155000 ms MarkObjects: 7.921600 ms  DeleteObjects: 0.178600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 843.991907 seconds.
-  path: Assets/Sounds/DarkMusic (mp3cut.net).mp3
-  artifactKey: Guid(9d982b84c53940042ab73d54588fae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/DarkMusic (mp3cut.net).mp3 using Guid(9d982b84c53940042ab73d54588fae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844c36f1ec880aef520dec32c78aafd1') in 0.072485 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.336 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1337ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1136ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.8 MB.
-System memory in use after: 192.0 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4842.
-Total: 8.792300 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.141300 ms MarkObjects: 8.074200 ms  DeleteObjects: 0.200200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 126.568418 seconds.
-  path: Assets/Scenes/TelaMorte.unity
-  artifactKey: Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaMorte.unity using Guid(828b154b17673dd489148b70a6c120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f11be3a41fb0a9d89741d956037fcac') in 0.007964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.343291 seconds.
-  path: Assets/Scenes/TelaInicial.unity
-  artifactKey: Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaInicial.unity using Guid(1a6c17651931dc347bdc57321978b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ebae2114b5bcd89dbfdd87259511d6') in 0.002656 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006071 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.333 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1334ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (1333ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1150ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.2 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4738.
+Total: 6.891700 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.277600 ms MarkObjects: 6.106700 ms  DeleteObjects: 0.193100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 954.119410 seconds.
+  path: Assets/Scenes/NewBehaviourScript.cs
+  artifactKey: Guid(3094f39c6769c8f4f9ebb684c1e89db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(3094f39c6769c8f4f9ebb684c1e89db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d31fa75e3dff06b315a2781be059f9') in 0.015861 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1284ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1130ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (360ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (424ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.2 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4742.
+Total: 6.909200 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.199000 ms MarkObjects: 6.218200 ms  DeleteObjects: 0.192100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1211ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.8 MB.
-System memory in use after: 192.0 MB.
+System memory in use before: 189.2 MB.
+System memory in use after: 189.4 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4845.
-Total: 8.048900 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.111900 ms MarkObjects: 7.366300 ms  DeleteObjects: 0.212400 ms)
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4744.
+Total: 7.247900 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.220200 ms MarkObjects: 6.504500 ms  DeleteObjects: 0.182700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.471649 seconds.
+  path: Assets/Mods/Cods/Rank.cs
+  artifactKey: Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Cods/Rank.cs using Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ee7b31f7955ad51d7316856fd6dabc') in 0.007643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1159ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4748.
+Total: 7.438400 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.404500 ms MarkObjects: 6.425700 ms  DeleteObjects: 0.175600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217.104471 seconds.
+  path: Assets/Mods/Cods/Rank.cs
+  artifactKey: Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Cods/Rank.cs using Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c84f85d5c60696ca0fe44fe0af1c6f6') in 0.010581 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1224ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4751.
+Total: 6.501000 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.226900 ms MarkObjects: 5.776800 ms  DeleteObjects: 0.199100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.607392 seconds.
+  path: Assets/Mods/Cods/Rank.cs
+  artifactKey: Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Cods/Rank.cs using Guid(4edc156b0cf222841ac6dd376a0c19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5da689f153d2b803c905b7f5af807a') in 0.009527 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1202ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4754.
+Total: 7.333900 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.169400 ms MarkObjects: 6.623100 ms  DeleteObjects: 0.219400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1021ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4757.
+Total: 7.048900 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.237000 ms MarkObjects: 6.263000 ms  DeleteObjects: 0.183900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4760.
+Total: 6.789100 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.181000 ms MarkObjects: 6.066800 ms  DeleteObjects: 0.239400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4763.
+Total: 9.273900 ms (FindLiveObjects: 0.634500 ms CreateObjectMapping: 0.355800 ms MarkObjects: 8.099600 ms  DeleteObjects: 0.182900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
