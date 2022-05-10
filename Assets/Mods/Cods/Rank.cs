@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class Rank : MonoBehaviour
 {
-
+    public Item item;
     public Text troca;
+
+    public int nivel = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,14 +18,21 @@ public class Rank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0)) // trocar dps para colidir com algo 
+       // if (Input.GetMouseButton(0)) // trocar dps para colidir com algo 
+       // {
+       //     TextChange();
+       // }
+       if (item.receb)
         {
             TextChange();
+            Debug.Log("aquitb");
+            item.receb = false;
+            nivel += 1;
         }
     }
 
     private void TextChange()
     {
-        troca.text = "Rank 1"; // criar variavel para o numero 
+        troca.text = "Rank " + nivel.ToString(); // criar variavel para o numero 
     }
 }

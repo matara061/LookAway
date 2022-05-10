@@ -7,6 +7,7 @@ TagManager:
   - FxTemporaire
   - Soco
   - Caixa
+  - Item
   layers:
   - Default
   - TransparentFX
