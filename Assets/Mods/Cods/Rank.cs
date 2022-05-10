@@ -9,10 +9,24 @@ public class Rank : MonoBehaviour
     public Text troca;
 
     public int nivel = 1;
+
+    public static Rank rankInstance;
     // Start is called before the first frame update
     void Start()
     {
-        
+            
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+
+        if (rankInstance == null)
+        {
+            rankInstance = this;
+        }
+        else
+            DestroyObject(gameObject);
     }
 
     // Update is called once per frame
