@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class Rank : MonoBehaviour
 {
-    public Item item;
+    [SerializeField]
+    private Item item;
     public Text troca;
 
     public int nivel = 1;
@@ -14,7 +15,7 @@ public class Rank : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-            
+        item = GameObject.Find("item(teste)").GetComponent<Item>();
     }
 
     private void Awake()
@@ -32,11 +33,9 @@ public class Rank : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // if (Input.GetMouseButton(0)) // trocar dps para colidir com algo 
-       // {
-       //     TextChange();
-       // }
-       if (item.receb)
+        //item = GameObject.Find("item(teste)").GetComponent<Item>();
+
+        if (item.receb)
         {
             TextChange();
             Debug.Log("aquitb");
