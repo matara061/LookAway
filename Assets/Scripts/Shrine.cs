@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class Shrine : MonoBehaviour
 {
     public string ShrineName;
+    public bool muda = false;
+    [SerializeField]
+    //private Rank rank;
     // Start is called before the first frame update
     void Start()
     {
-       
+      // rank = GameObject.Find("Canvas").GetComponent<Rank>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,8 @@ public class Shrine : MonoBehaviour
         {
             PlayerPrefsX.SetVector3("OldPlayerPosition", other.transform.position - other.transform.forward * 2);
             SceneManager.LoadScene(ShrineName);
+            muda = true;
+            //rank.achar();
         }
     }
 }

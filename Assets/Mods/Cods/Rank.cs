@@ -7,6 +7,7 @@ public class Rank : MonoBehaviour
 {
     [SerializeField]
     private Item item;
+    private Shrine shrine;
     public Text troca;
 
     public int nivel = 1;
@@ -15,7 +16,9 @@ public class Rank : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        item = GameObject.Find("item(teste)").GetComponent<Item>();
+        // item = GameObject.Find("item(teste)").GetComponent<Item>();
+        achar();
+        shrine = GameObject.Find("shrine").GetComponent<Shrine>();
     }
 
     private void Awake()
@@ -35,6 +38,33 @@ public class Rank : MonoBehaviour
     {
         //item = GameObject.Find("item(teste)").GetComponent<Item>();
 
+        // if (item.receb)
+        // {
+        //     TextChange();
+        //     Debug.Log("aquitb");
+        //     item.receb = false;
+        //     nivel += 1;
+        // }
+        Receber();
+      //  if (shrine.muda == true)
+      //  {
+      //      achar();
+      //      shrine.muda = false;
+      //  }
+    }
+
+    private void TextChange()
+    {
+        troca.text = "Rank " + nivel.ToString(); // criar variavel para o numero 
+    }
+
+    public void achar()
+    {
+        item = GameObject.Find("item(teste)").GetComponent<Item>();
+    }
+
+    private void Receber()
+    {
         if (item.receb)
         {
             TextChange();
@@ -42,10 +72,5 @@ public class Rank : MonoBehaviour
             item.receb = false;
             nivel += 1;
         }
-    }
-
-    private void TextChange()
-    {
-        troca.text = "Rank " + nivel.ToString(); // criar variavel para o numero 
     }
 }
