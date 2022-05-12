@@ -1,202 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16322 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16272 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.32f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/PC/Desktop/23 projeto/openworld/LookAway
+C:/Users/Usuario/OneDrive/Área de Trabalho/Jogos digitais/Unity/Openworld/OpWorld/LookAway
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49542
-Successfully changed project path to: C:/Users/PC/Desktop/23 projeto/openworld/LookAway
-C:/Users/PC/Desktop/23 projeto/openworld/LookAway
+57338
+Successfully changed project path to: C:/Users/Usuario/OneDrive/Área de Trabalho/Jogos digitais/Unity/Openworld/OpWorld/LookAway
+C:/Users/Usuario/OneDrive/Área de Trabalho/Jogos digitais/Unity/Openworld/OpWorld/LookAway
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 167.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/23 projeto/openworld/LookAway/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/OneDrive/Área de Trabalho/Jogos digitais/Unity/Openworld/OpWorld/LookAway/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     8079 MB
-    Driver:   30.0.15.1215
+    VRAM:     4019 MB
+    Driver:   30.0.15.1259
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.32f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000889 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003575 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 129.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  0.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007640 seconds.
+Registered in 0.013966 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 430.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 132.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.082 seconds
+- Completed reload, in  1.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3083ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (2838ms)
-			LoadAssemblies (143ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (794ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (184ms)
-			SetupLoadedEditorAssemblies (1371ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (430ms)
-				BeforeProcessingInitializeOnLoad (401ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (206ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4331 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.7 MB.
-System memory in use after: 218.8 MB.
-
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4753.
-Total: 6.431100 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.216000 ms MarkObjects: 5.710400 ms  DeleteObjects: 0.152600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Shirines/Shrine01.unity
-  artifactKey: Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shirines/Shrine01.unity using Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42437018c8f17960f7851724e448bea3') in 0.009650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.749641 seconds.
-  path: Assets/Scenes/Shirines/ShrineLucas2.unity
-  artifactKey: Guid(48481d78d74cbb743a9893a7219a188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shirines/ShrineLucas2.unity using Guid(48481d78d74cbb743a9893a7219a188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe20feb5c1c42d00d3f00a18f6b7752') in 0.013352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.352673 seconds.
-  path: Assets/Scenes/Shirines/ShrineEarth.unity
-  artifactKey: Guid(9252983999cc5854a8fd980ea87ca567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shirines/ShrineEarth.unity using Guid(9252983999cc5854a8fd980ea87ca567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8129fca5e7c33788a429efe262345f') in 0.006587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.228357 seconds.
-  path: Assets/Scenes/Shirines/ShrineTestePet.unity
-  artifactKey: Guid(f431f58bfa3bcd840bfaef93261d4613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shirines/ShrineTestePet.unity using Guid(f431f58bfa3bcd840bfaef93261d4613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf46d3995e554cb3140a1780e42d367f') in 0.004940 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006354 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.259 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1260ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1999ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1711ms)
+			LoadAssemblies (180ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (348ms)
+			SetupTypeCache (619ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (662ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.9 MB.
-System memory in use after: 199.0 MB.
+Unloading 4331 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.5 MB.
+System memory in use after: 208.6 MB.
 
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4756.
-Total: 5.738900 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.217500 ms MarkObjects: 5.096000 ms  DeleteObjects: 0.120700 ms)
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4741.
+Total: 8.348700 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.224200 ms MarkObjects: 7.554400 ms  DeleteObjects: 0.226000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -205,7 +126,478 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Shirines/ShrineML 1.unity
+  artifactKey: Guid(4b50067ebc8bf224197ba40585f2a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shirines/ShrineML 1.unity using Guid(4b50067ebc8bf224197ba40585f2a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80853c237c916fd65f42690a7a2d1c97') in 0.024156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.785758 seconds.
+  path: Assets/Models
+  artifactKey: Guid(a74150a272399d84b89be7d9faba84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(a74150a272399d84b89be7d9faba84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0738f1cfd687b3be501d59535949f15') in 0.004488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.635695 seconds.
+  path: Assets/Mods/Texturas/CuboAzul.mat
+  artifactKey: Guid(ec64abf368506474386bc421771e1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/CuboAzul.mat using Guid(ec64abf368506474386bc421771e1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c3add60d46606fe06ec796029737ce') in 40.644424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Mods/Texturas/text tijolinho.jpg
+  artifactKey: Guid(eadfbb3001476444c9f7f49a6bb93403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/text tijolinho.jpg using Guid(eadfbb3001476444c9f7f49a6bb93403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3da503e47a7a26b65b14be60097acd') in 0.062379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001141 seconds.
+  path: Assets/Mods/Texturas/escrita-egípcia-dos-hieróglifos-na-pedratextura.jpg
+  artifactKey: Guid(1b90e498d91e6ac4184b38aab27835e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/escrita-egípcia-dos-hieróglifos-na-pedratextura.jpg using Guid(1b90e498d91e6ac4184b38aab27835e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5ae43ff4aec5caa316bda8e1a0ad13') in 0.025635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002357 seconds.
+  path: Assets/Mods/Texturas/text moldura egito.jpg
+  artifactKey: Guid(4d89def0bf8c07048958edd7adb05c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/text moldura egito.jpg using Guid(4d89def0bf8c07048958edd7adb05c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a05caac692c29c787dc8b3b3e6fb20') in 0.033092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Mods/Texturas/CuboVermelho.mat
+  artifactKey: Guid(2fddf815fd1615644a71e31146d7e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/CuboVermelho.mat using Guid(2fddf815fd1615644a71e31146d7e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d8e809e7377e2ed0927db20d3a9028') in 0.036388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.860723 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx
+  artifactKey: Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx using Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf3a54dbf4cdf2aebb1942cb8035715') in 0.039225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.548952 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b89bb4f0008bacad72cead3596e785') in 0.110961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.678094 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7c15847c889c25dafded234430afb') in 0.042396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.777379 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx
+  artifactKey: Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx using Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bbeb901acf16898f664aa37174d515') in 0.071774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.915472 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx
+  artifactKey: Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx using Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c59055660d4449dee8fa5ec1833874') in 0.058946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 362.105411 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94aafbfcc3c9dd092cc6cce1f8716cd') in 0.055674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 498.702902 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b070a80b3df62ff4d8b0720506d28d') in 0.045836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.470837 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c9231a932dc5463c236056208b498') in 0.052661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.942506 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33058b6359a1b9a8afe579220812c08') in 0.053094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.998248 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea497601b5c590da074a2575ef5b21') in 0.049828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1699.081447 seconds.
+  path: Assets/Scenes/Land.unity
+  artifactKey: Guid(b3d4126d058fc1a47a4df48502a6a692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Land.unity using Guid(b3d4126d058fc1a47a4df48502a6a692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702117d16ecb889b5e76c434e7bd4709') in 0.004889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.716244 seconds.
+  path: Assets/Scenes/IlhaBaixa.unity
+  artifactKey: Guid(6977619cec33ca546a7dda59531de2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IlhaBaixa.unity using Guid(6977619cec33ca546a7dda59531de2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631c36f5c8ffa4d80b99648cbcf81404') in 0.003845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.816623 seconds.
+  path: Assets/Scenes/Cidade1.unity
+  artifactKey: Guid(21d0fac2911ca7e4fb28b2a1353f5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cidade1.unity using Guid(21d0fac2911ca7e4fb28b2a1353f5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bb1c0cc1bab84fcf539fbcfcfff081') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.560654 seconds.
+  path: Assets/Scenes/Shirines/ShrineML 1.unity
+  artifactKey: Guid(4b50067ebc8bf224197ba40585f2a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shirines/ShrineML 1.unity using Guid(4b50067ebc8bf224197ba40585f2a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a409b2ab593310c3ad0862f0dbfee13f') in 0.003480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.527214 seconds.
+  path: Assets/Scenes/Shirines/Shrine01.unity
+  artifactKey: Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shirines/Shrine01.unity using Guid(626ee094935379e43a55611ffc857828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1222981dbe47504e9100cb140ad7b2c5') in 0.005892 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (341ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1647ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.2 MB.
+System memory in use after: 194.4 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4828.
+Total: 8.535000 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.218700 ms MarkObjects: 7.771900 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 395.801969 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx
+  artifactKey: Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx using Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab6f415da91c0dbf636c772264c5bf2') in 0.329765 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1773ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.4 MB.
+System memory in use after: 194.6 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4867.
+Total: 7.554600 ms (FindLiveObjects: 0.383500 ms CreateObjectMapping: 0.391700 ms MarkObjects: 6.617400 ms  DeleteObjects: 0.161100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 161.941074 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx
+  artifactKey: Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 0.fbx using Guid(3e7aeeaa34d89944ca2a1d0d20cf703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1878d4edab6f25de312d5ff0f6bfb') in 0.299644 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1462ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.6 MB.
+System memory in use after: 194.7 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 4906.
+Total: 8.939000 ms (FindLiveObjects: 0.558000 ms CreateObjectMapping: 0.333600 ms MarkObjects: 7.883000 ms  DeleteObjects: 0.162500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 469.322211 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eab48bab50b5a7b2488c6ce5476e9a5') in 0.302150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.359073 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20107ee86a9889b44a781a985aa237f') in 0.066434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.156274 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a50048caba0c489cc4459333d9726fd') in 0.051371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.997158 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b10e846debcff593820a1971d7b3ce') in 0.054991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.136673 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72c857445fbb765fe2d7131e611f72e') in 0.051696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.448539 seconds.
+  path: Assets/Mods/Objetos3D/PortaPuzzle.fbx
+  artifactKey: Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/PortaPuzzle.fbx using Guid(6d48a4335d2dbd542b72beff129db36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2728fe9d11bbc7e6b94630b00f7a17c6') in 0.052022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.380702 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3012ccc5bd71b2b654ac81bf343ac34') in 0.038254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.818919 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8251ccadd2b4c4a39c27731f8690a4a2') in 0.037609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.258170 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e7f3a9a359f313d4e53836e4f1e634') in 0.038660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.408669 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df71cf7491de6a7c34c5dd70fb5498') in 0.038082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.544643 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6321dbeec6bc455852afb19ff00636') in 0.036056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.264835 seconds.
+  path: Assets/Mods/Objetos3D/ParedePuzzle.fbx
+  artifactKey: Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/ParedePuzzle.fbx using Guid(0980e03254b66ed46945b5d2d7b97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507c3f337285383f1300303b4c91e3dc') in 0.048314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 455.766026 seconds.
+  path: Assets/Mods/Texturas/CuboAmarelo.mat
+  artifactKey: Guid(3c7ac5cf0bf3c7b4c8275202df8a855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/CuboAmarelo.mat using Guid(3c7ac5cf0bf3c7b4c8275202df8a855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1a64742f2b421acae6151f77e9a8cc') in 0.112148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021150 seconds.
+  path: Assets/Mods/Texturas/CuboRosa.mat
+  artifactKey: Guid(52cb329bc6c285247a7f8e2bc051bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/CuboRosa.mat using Guid(52cb329bc6c285247a7f8e2bc051bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b58b0a4077dec75f0c210b3793f69') in 0.498820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001216 seconds.
+  path: Assets/Mods/Texturas/CuboVerde.mat
+  artifactKey: Guid(e2a19c6a001f2904b983f812151410d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/CuboVerde.mat using Guid(e2a19c6a001f2904b983f812151410d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee3b6d6077436662da91241e614c57e') in 0.027349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 508.652389 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle1.fbx
+  artifactKey: Guid(8b6b7c83ff2ae2e40a804a16478f3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle1.fbx using Guid(8b6b7c83ff2ae2e40a804a16478f3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abef40183462016c242055b7d0f0b4f8') in 0.013012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.673857 seconds.
+  path: Assets/Mods/Texturas/textura parede egipicia.jpg
+  artifactKey: Guid(cfbfa24373009b34595d0c33bb04b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/textura parede egipicia.jpg using Guid(cfbfa24373009b34595d0c33bb04b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2f3d0849dab219b57ef295eae30d1a') in 0.022916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.726456 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle1.fbx
+  artifactKey: Guid(8b6b7c83ff2ae2e40a804a16478f3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle1.fbx using Guid(8b6b7c83ff2ae2e40a804a16478f3273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab46f2b6c970dce7f57e8f655edae7d') in 0.045779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 820.633173 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 2.fbx
+  artifactKey: Guid(ed861351fb495bd42b8b7bd250fba660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 2.fbx using Guid(ed861351fb495bd42b8b7bd250fba660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f7c6587d2fd04c8e347e40d6f7f313') in 0.052274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.666168 seconds.
+  path: Assets/Mods/Texturas/text pedra azul.jpg
+  artifactKey: Guid(7cf0ed0f1be1f4e4caa75c3e92036c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/text pedra azul.jpg using Guid(7cf0ed0f1be1f4e4caa75c3e92036c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eab66769bc9f2d6d3e4cce7ec26087') in 0.017481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.171206 seconds.
+  path: Assets/Mods/Texturas/text areia.jpg
+  artifactKey: Guid(982afd0cab3b0a84b9785d77d93c8e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Texturas/text areia.jpg using Guid(982afd0cab3b0a84b9785d77d93c8e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6349ca764466dbeb0d4d9f12b8269ee3') in 0.014806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.184635 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 3.fbx
+  artifactKey: Guid(f2d7f4e44427798448f65a4e3361f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 3.fbx using Guid(f2d7f4e44427798448f65a4e3361f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1246c6ae3f761b14cec455163fab4611') in 0.048273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.926786 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 4.fbx
+  artifactKey: Guid(008de5b293c042b4b806e034c90f2538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 4.fbx using Guid(008de5b293c042b4b806e034c90f2538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce1cc8ede748c453bc130f3cac842b3') in 0.039528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.312254 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 4.fbx
+  artifactKey: Guid(008de5b293c042b4b806e034c90f2538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 4.fbx using Guid(008de5b293c042b4b806e034c90f2538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba7fc9117da6defef2fa52e6dc5a6ad') in 0.038575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.944917 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 2.fbx
+  artifactKey: Guid(ed861351fb495bd42b8b7bd250fba660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 2.fbx using Guid(ed861351fb495bd42b8b7bd250fba660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99680fbd20a4d77c2c5d35fbcc44f5f9') in 0.039442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.310376 seconds.
+  path: Assets/Mods/Objetos3D/pisoPuzzlle 3.fbx
+  artifactKey: Guid(f2d7f4e44427798448f65a4e3361f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Objetos3D/pisoPuzzlle 3.fbx using Guid(f2d7f4e44427798448f65a4e3361f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93af8bf5b6349b4b35ae8d52afafcbe2') in 0.039062 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
