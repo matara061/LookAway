@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 8144 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Util\Unity\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55903
+Successfully changed project path to: D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
+D:/Documentos/Jogos/PUC/2 ano/1 semestre/LookAway
+Using Asset Import Pipeline V2.

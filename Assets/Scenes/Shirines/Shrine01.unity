@@ -3228,7 +3228,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725778544}
-  m_LocalRotation: {x: 0.16623114, y: -0.52030694, z: 0.10406126, w: 0.83115536}
+  m_LocalRotation: {x: 0.16623116, y: -0.520307, z: 0.10406127, w: 0.8311553}
   m_LocalPosition: {x: 7.28505, y: 4.212, z: -4.711422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4797,7 +4797,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283816123}
-  m_LocalRotation: {x: 0.16623099, y: -0.520307, z: 0.10406147, w: 0.8311553}
+  m_LocalRotation: {x: 0.166231, y: -0.52030706, z: 0.104061484, w: 0.8311553}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5979,7 +5979,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836891046}
-  m_LocalRotation: {x: 0.16623108, y: -0.520307, z: 0.104061335, w: 0.8311553}
+  m_LocalRotation: {x: 0.16623107, y: -0.520307, z: 0.104061335, w: 0.8311553}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6025,6 +6025,7 @@ MonoBehaviour:
   ShrineOut: {fileID: 0}
   troca: {fileID: 534128205}
   nivel: 1
+  level: 0
 --- !u!114 &1877232373
 MonoBehaviour:
   m_ObjectHideFlags: 0
