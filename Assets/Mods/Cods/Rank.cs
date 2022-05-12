@@ -7,10 +7,14 @@ public class Rank : MonoBehaviour
 {
     [SerializeField]
     private Item item;
+    [SerializeField]
     private Shrine shrine;
+    [SerializeField]
+    private ShrineOut ShrineOut;
     public Text troca;
 
     public int nivel = 1;
+    public int level = 0;
 
     public static Rank rankInstance;
     // Start is called before the first frame update
@@ -18,7 +22,8 @@ public class Rank : MonoBehaviour
     {
         // item = GameObject.Find("item(teste)").GetComponent<Item>();
         achar();
-        shrine = GameObject.Find("shrine").GetComponent<Shrine>();
+        shrine = GameObject.Find("portal").GetComponent<Shrine>();
+        ShrineOut = GameObject.Find("portalOut").GetComponent<ShrineOut>();
     }
 
     private void Awake()
@@ -38,19 +43,18 @@ public class Rank : MonoBehaviour
     {
         //item = GameObject.Find("item(teste)").GetComponent<Item>();
 
-        // if (item.receb)
-        // {
-        //     TextChange();
-        //     Debug.Log("aquitb");
-        //     item.receb = false;
-        //     nivel += 1;
-        // }
         Receber();
-      //  if (shrine.muda == true)
-      //  {
-      //      achar();
-      //      shrine.muda = false;
-      //  }
+        if (shrine.muda == true)
+        {
+            achar();
+            ShrineOut = GameObject.Find("portalOut").GetComponent<ShrineOut>();
+            shrine.muda = false;
+        }
+        if(ShrineOut.sair)
+        {
+            shrine = GameObject.Find("portal" + level).GetComponent<Shrine>();
+            ShrineOut.sair = false;
+        }
     }
 
     private void TextChange()
@@ -71,6 +75,7 @@ public class Rank : MonoBehaviour
             Debug.Log("aquitb");
             item.receb = false;
             nivel += 1;
+            level++;
         }
     }
 }

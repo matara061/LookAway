@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ShrineOut : MonoBehaviour
 {
-    
+    public bool sair = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,7 @@ public class ShrineOut : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("Land");
+            sair = true;
         }
     }
 }
