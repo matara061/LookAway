@@ -29,7 +29,7 @@ public class TranslatePlayer : MonoBehaviour
         clone.transform.parent = player.transform;
 
         //Efeito
-        player.transform.Translate(-6, 3, 0);
+        player.transform.Translate(-6, 3.8f, 0);
 
         // no momento, não há necessidade disso
         yield return new WaitForSeconds(0.1f);
