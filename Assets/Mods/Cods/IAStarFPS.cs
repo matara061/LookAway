@@ -5,10 +5,17 @@ using UnityEngine.AI;
 
 public class IAStarFPS : MonoBehaviour
 {
+    // Talvez um public Transform player para melhorar a perseguição
     public GameObject target;
+
+    //public GameObject projetil; //Lembrete
     public NavMeshAgent agent;
     public Animator anim;
     public SkinnedMeshRenderer render;
+
+    // Teste Para o Tiro da IA
+    /*public float sightRange, attackRange;
+    public bool playerInSightRange, playerInAttackRange; --Lembrete*/ // acaba aqui
     public enum States
     {
         pursuit,
@@ -20,17 +27,29 @@ public class IAStarFPS : MonoBehaviour
 
     public States state;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    //Só para ter certeza de que vai encontrar o player
+    private void Awake()
+    {
+        //target = GameObject.Find("unitychan Phisical");
+    }
     void Update()
     {
         StateMachine();
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
+
+        // para verificar a visão do ataque. O numero é a Layer que o player se encontra 
+        /*playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6); --Lembrete*/
+
+        //Estados para situações:
+        // 1°: Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
+        /*if (!playerInSightRange && !playerInAttackRange)  AttackState();
+        if (playerInSightRange && !playerInAttackRange)  PursuitState(); -- Lembrete*/
 
     }
 
@@ -85,15 +104,20 @@ public class IAStarFPS : MonoBehaviour
     }
 
 
+    
     void PursuitState()
     {
         agent.isStopped = false;
         agent.destination = target.transform.position;
         anim.SetBool("Attack", false);
         anim.SetBool("Damage", false);
+        Debug.Log("Perseguindo");
+
+        // Att Pet ~ o Valor Original é < 3. é aqui que a IA verifica a posição do jogador para começar a atacar
         if (Vector3.Distance(transform.position, target.transform.position) < 3)
         {
             state = States.atacking;
+            
         }
     }
 
@@ -102,10 +126,25 @@ public class IAStarFPS : MonoBehaviour
         agent.isStopped = true;
         anim.SetBool("Attack", true);
         anim.SetBool("Damage", false);
+        Debug.Log("atacando");
+        //Olha a ped4ra ~ faz o projetil voar
+        /*Debug.Log("atacando");
+        Rigidbody rb = Instantiate(projetil, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * 32f, ForceMode.Impulse); --Lembrete*/
+
+        //rb.AddForce(transform.up * 8f, ForceMode.Impulse);// ?
+
+        //Instancia de um ponto, como se fosse bombas.
+        //GameObject shoot = Instantiate(projetil, transform.position, transform.rotation);
+        //shoot.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(velocidade, 0, 0));
+
         if (Vector3.Distance(transform.position, target.transform.position) > 4)
         {
             state = States.pursuit;
+            
         }
+
+        
     }
 
     void StoppedState()
