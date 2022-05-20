@@ -21,8 +21,15 @@ public class MagicShoot : MonoBehaviour
     public bool allowInvoke = true;
 
     public GameObject Efeito;
+    public GameObject Efeito2;
+    public GameObject Efeito3;
     public float FireRate;
     float nextTimeToFire = 2;
+
+    
+    public float velocidade = 1000f;
+    public int lives = 10;
+    public MagicShoot iastar;
 
     public enum States
     {
@@ -51,13 +58,14 @@ public class MagicShoot : MonoBehaviour
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
 
         // para verificar a visão do ataque. O numero ?a Layer que o player se encontra 
-       //playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
-       //playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
+        //playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
+        //playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
 
         //Estados para situações:
         // 1? Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
         //if (!playerInSightRange && !playerInAttackRange) AttackState();
         //if (playerInSightRange && playerInAttackRange) PursuitState();
+
 
     }
 
@@ -118,8 +126,8 @@ public class MagicShoot : MonoBehaviour
         agent.isStopped = false;
         agent.destination = target.transform.position;
         anim.SetBool("Attack", false);
-        anim.SetBool("Damage", false);
-        Debug.Log("perseguindo");
+        anim.SetBool("damage_001", false);
+        //Debug.Log("perseguindo");
 
         // Att Pet ~ o Valor Original ?< 3.É aqui que a IA verifica a posição do jogador para começar a atacar
         if (Vector3.Distance(transform.position, target.transform.position) < 30)
@@ -133,8 +141,8 @@ public class MagicShoot : MonoBehaviour
     {
         agent.isStopped = true;
         anim.SetBool("Attack", true);
-        anim.SetBool("Damage", false);
-        Debug.Log("atacando");
+        anim.SetBool("damage_001", false);
+        //Debug.Log("atacando");
 
         if (Time.time > nextTimeToFire)
         {
@@ -156,21 +164,21 @@ public class MagicShoot : MonoBehaviour
     {
         agent.isStopped = true;
         anim.SetBool("Attack", false);
-        anim.SetBool("Damage", false);
+        anim.SetBool("damage_001", false);
     }
 
     void DeadState()
     {
-        agent.isStopped = true;
-        anim.SetBool("Attack", false);
-        anim.SetBool("Dead", true);
-        anim.SetBool("Damage", false);
+        //agent.isStopped = true;
+        //anim.SetBool("Attack", false);
+        anim.SetBool("dead", true);
+        anim.SetBool("damage_001", false);
     }
 
     void DamageState()
     {
         agent.isStopped = true;
-        anim.SetBool("Damage", true);
+        anim.SetBool("damage_001", true);
     }
 
     void Shoot()
@@ -180,10 +188,18 @@ public class MagicShoot : MonoBehaviour
         rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
 
-        Destroy(projetil, 10f);
-        //Instancia de um ponto, como se fosse bombas.
-        //GameObject shoot = Instantiate(projetil, transform.position, transform.rotation);
-        //shoot.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(velocidade, 0, 0));
+        if (lives <= 2)
+        {
+            lives--;
+            DamageState();
+            anim.Play("damage_001");
+            Debug.Log("Berserker");
+            GameObject shoot = Instantiate(projetil, TargetShoot.transform.position, TargetShoot.transform.rotation);
+            shoot.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(velocidade, 10, 10));
+            rb.AddForce(transform.up * 10f, ForceMode.Impulse);
+            FireRate = 20f;
+        }
+      
     }
 
     private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar
@@ -202,5 +218,29 @@ public class MagicShoot : MonoBehaviour
             CancelInvoke();
         }
     }
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            lives--;
+            Instantiate(Efeito2, transform.position, transform.rotation);
+            iastar.Damage();
+            anim.Play("damage_001");
+            Debug.Log("Toma dano");
+
+        }
+        if (lives < 0)
+        {
+            iastar.Dead();
+            Instantiate(Efeito3, TargetShoot.transform.position, TargetShoot.transform.rotation);
+            anim.Play("dead");
+            Destroy(gameObject, 4);
+            Destroy(Efeito3, 4);
+            Debug.Log("Morreu");
+        }
+    }
+
+
+
 
 }

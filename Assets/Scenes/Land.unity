@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4435394, g: 0.49284565, b: 0.57243705, a: 1}
+  m_IndirectSpecularColor: {r: 0.4435391, g: 0.49284512, b: 0.57243615, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1536,7 +1536,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416977900}
-  m_LocalRotation: {x: 0.11884091, y: 0.000008695969, z: -0.0000012965501, w: 0.9929133}
+  m_LocalRotation: {x: 0.1188409, y: 0.000008688571, z: -0.0000012956646, w: 0.9929133}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7338,7 +7338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175852, guid: f8243bb353e5cb74481bb26fe62fd298, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 477254, guid: f8243bb353e5cb74481bb26fe62fd298, type: 3}
       propertyPath: m_RootOrder
@@ -8145,7 +8145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &767273551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8289,8 +8289,8 @@ GameObject:
   - component: {fileID: 788729741}
   - component: {fileID: 788729740}
   - component: {fileID: 788729739}
-  - component: {fileID: 788729738}
   - component: {fileID: 788729744}
+  - component: {fileID: 788729738}
   m_Layer: 0
   m_Name: MagicSkrull IA
   m_TagString: Untagged
@@ -8298,20 +8298,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &788729738
-MonoBehaviour:
+--- !u!95 &788729738
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788729737}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f2d6a41d5a4ed4a8347c36029dba79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lives: 10
-  iastar: {fileID: 767273554}
+  m_Avatar: {fileID: 9000000, guid: be5995a9158bda9459c22d48acd79a3f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 700d9bf6b23d6c7478ef89bf23dd2558, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!136 &788729739
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8322,10 +8327,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.23919249
-  m_Height: 2.4084911
+  m_Radius: 2.3213186
+  m_Height: 8.043681
   m_Direction: 1
-  m_Center: {x: 0.13486576, y: 0.2243576, z: -0.9650531}
+  m_Center: {x: -0.004057884, y: 3.0419526, z: -0.36306548}
 --- !u!54 &788729740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8359,7 +8364,7 @@ MonoBehaviour:
   projetil: {fileID: 4753869952089006312, guid: 94f654d585c817d498c5f2c8078fd545,
     type: 3}
   agent: {fileID: 788729742}
-  anim: {fileID: 967814804}
+  anim: {fileID: 788729738}
   render: {fileID: 967814802}
   sightRange: 10
   attackRange: 10
@@ -8367,7 +8372,12 @@ MonoBehaviour:
   playerInAttackRange: 0
   allowInvoke: 1
   Efeito: {fileID: 1687118924408352, guid: 77c69ec12208c4c4380d15e30b6f8f68, type: 3}
+  Efeito2: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
+  Efeito3: {fileID: 1134129239631916, guid: 7e48ba6b1b968764490bbc70b66e3fe1, type: 3}
   FireRate: 1
+  velocidade: 50
+  lives: 10
+  iastar: {fileID: 788729741}
   state: 0
 --- !u!195 &788729742
 NavMeshAgent:
@@ -8399,7 +8409,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788729737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -683.0469, y: 42.045853, z: -742.15216}
+  m_LocalPosition: {x: -683.0469, y: 42.44, z: -742.15216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 967814803}
@@ -10575,6 +10585,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 788729743}
     m_Modifications:
+    - target: {fileID: 1000010550835714, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010633298584, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -10586,6 +10600,18 @@ PrefabInstance:
     - target: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10638,12 +10664,6 @@ SkinnedMeshRenderer:
 --- !u!4 &967814803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011578242470, guid: 3c9c8a8bf50e6b5439ab9db67bc82586,
-    type: 3}
-  m_PrefabInstance: {fileID: 967814801}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &967814804 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95000012058624550, guid: 3c9c8a8bf50e6b5439ab9db67bc82586,
     type: 3}
   m_PrefabInstance: {fileID: 967814801}
   m_PrefabAsset: {fileID: 0}
