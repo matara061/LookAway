@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class MagicShoot : MonoBehaviour
 {
 
-    // Talvez um public Transform player para melhorar a perseguição
+    // Talvez um public Transform player para melhorar a perseguiè±«o
     public GameObject target;
     public Transform TargetShoot;
 
@@ -40,7 +40,7 @@ public class MagicShoot : MonoBehaviour
 
     }
 
-    //Só para ter certeza de que vai encontrar o player
+    //SÃ³ para ter certeza de que vai encontrar o player
     private void Awake()
     {
         //target = GameObject.Find("unitychan Phisical");
@@ -50,14 +50,14 @@ public class MagicShoot : MonoBehaviour
         StateMachine();
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
 
-        // para verificar a visão do ataque. O numero é a Layer que o player se encontra 
-        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
-        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
+        // para verificar a visÃ£o do ataque. O numero ?a Layer que o player se encontra 
+       //playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
+       //playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
 
-        //Estados para situações:
-        // 1°: Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
-        if (!playerInSightRange && !playerInAttackRange) AttackState();
-        if (playerInSightRange && playerInAttackRange) PursuitState();
+        //Estados para situaÃ§Ãµes:
+        // 1? Caso o player esteja dentro do alcance de visÃ£o, mas nÃ£o no de ataque, a IA deve persegui-lo.
+        //if (!playerInSightRange && !playerInAttackRange) AttackState();
+        //if (playerInSightRange && playerInAttackRange) PursuitState();
 
     }
 
@@ -113,16 +113,16 @@ public class MagicShoot : MonoBehaviour
 
 
 
-    void PursuitState()
+    void PursuitState() 
     {
         agent.isStopped = false;
         agent.destination = target.transform.position;
         anim.SetBool("Attack", false);
         anim.SetBool("Damage", false);
-        Debug.Log("Perseguindo");
+        Debug.Log("perseguindo");
 
-        // Att Pet ~ o Valor Original é < 3. é aqui que a IA verifica a posição do jogador para começar a atacar
-        if (Vector3.Distance(transform.position, target.transform.position) < 20)
+        // Att Pet ~ o Valor Original ?< 3.Ã‰ aqui que a IA verifica a posiÃ§Ã£o do jogador para comeÃ§ar a atacar
+        if (Vector3.Distance(transform.position, target.transform.position) < 30)
         {
             state = States.atacking;
 
@@ -142,12 +142,12 @@ public class MagicShoot : MonoBehaviour
             Shoot();
         }
 
-
         if (Vector3.Distance(transform.position, target.transform.position) > 4)
         {
             state = States.pursuit;
-
+        
         }
+       
 
 
     }
@@ -184,6 +184,23 @@ public class MagicShoot : MonoBehaviour
         //Instancia de um ponto, como se fosse bombas.
         //GameObject shoot = Instantiate(projetil, transform.position, transform.rotation);
         //shoot.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(velocidade, 0, 0));
+    }
+
+    private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar
+    {
+        if (collider.gameObject.tag == "Player") 
+        {
+            state = States.stoped;
+            InvokeRepeating("Shoot", 1.0f, 2.0f);//pra ele ficar repetindo o tiro enquanto parado
+        }
+    }
+    private void OnTriggerExit(Collider collider)//comando para continuar a seguir e parar os tiros enquando parado
+    {
+        if (collider.gameObject.tag == "Player")
+        {
+            state = States.pursuit;
+            CancelInvoke();
+        }
     }
 
 }

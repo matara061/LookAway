@@ -25,7 +25,7 @@ public class IADamage : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("PlayerProjectile"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             lives--;
             iastar.Damage();
