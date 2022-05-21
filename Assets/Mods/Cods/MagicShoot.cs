@@ -58,13 +58,13 @@ public class MagicShoot : MonoBehaviour
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
 
         // para verificar a visão do ataque. O numero ?a Layer que o player se encontra 
-        //playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
-        //playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
+        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
 
         //Estados para situações:
         // 1? Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
-        //if (!playerInSightRange && !playerInAttackRange) AttackState();
-        //if (playerInSightRange && playerInAttackRange) PursuitState();
+        if (!playerInSightRange && !playerInAttackRange) AttackState();
+        if (playerInSightRange && playerInAttackRange) PursuitState();
 
 
     }
@@ -125,11 +125,11 @@ public class MagicShoot : MonoBehaviour
     {
         agent.isStopped = false;
         agent.destination = target.transform.position;
-        anim.SetBool("Attack", false);
+        anim.SetBool("attack_short_001", false);
         anim.SetBool("damage_001", false);
         //Debug.Log("perseguindo");
 
-        // Att Pet ~ o Valor Original ?< 3.É aqui que a IA verifica a posição do jogador para começar a atacar
+        
         if (Vector3.Distance(transform.position, target.transform.position) < 30)
         {
             state = States.atacking;
@@ -140,7 +140,8 @@ public class MagicShoot : MonoBehaviour
     void AttackState()
     {
         agent.isStopped = true;
-        anim.SetBool("Attack", true);
+        anim.SetBool("attack_short_001", true);
+        anim.Play("attack_short_001");
         anim.SetBool("damage_001", false);
         //Debug.Log("atacando");
 
@@ -163,7 +164,7 @@ public class MagicShoot : MonoBehaviour
     void StoppedState()
     {
         agent.isStopped = true;
-        anim.SetBool("Attack", false);
+        anim.SetBool("attack_short_001", false);
         anim.SetBool("damage_001", false);
     }
 
@@ -220,7 +221,7 @@ public class MagicShoot : MonoBehaviour
     }
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Tiro"))
         {
             lives--;
             Instantiate(Efeito2, transform.position, transform.rotation);

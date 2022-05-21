@@ -8,6 +8,8 @@ TagManager:
   - Soco
   - Caixa
   - Item
+  - IA
+  - Tiro
   layers:
   - Default
   - TransparentFX

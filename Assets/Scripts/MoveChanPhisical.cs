@@ -11,6 +11,7 @@ public class MoveChanPhisical : MonoBehaviour
     public GameObject currentCamera;
     public float jumpspeed = 8;
     public float gravity = 20;
+    public GameObject Devil;
 
     float jumptime;
     float flyvelocity = 3;
@@ -21,6 +22,8 @@ public class MoveChanPhisical : MonoBehaviour
     bool jumpbtnrelease = false;
     GameObject closeThing;
     float weight;
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -100,6 +103,7 @@ public class MoveChanPhisical : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("PunchA");
+            
         }
 
       
