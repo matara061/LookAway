@@ -5,7 +5,7 @@ using UnityEngine;
 public class CaoDamage : MonoBehaviour
 {
     public int lives = 10;
-    public IAcao cao;
+    public CaoIA cao;
     // Start is called before the first frame update
     void Start()
     {
