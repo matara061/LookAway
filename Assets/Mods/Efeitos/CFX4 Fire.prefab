@@ -44,7 +44,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.50020283, b: 0.17647058, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 2
   m_Range: 6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4895,9 +4895,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 0
-      minColor: {r: 0.99607843, g: 0.29803923, b: 0.043137256, a: 1}
-      maxColor: {r: 1, g: 0.3372549, b: 0.11764706, a: 1}
+      minMaxState: 2
+      minColor: {r: 0.99607843, g: 0.9690557, b: 0.043137234, a: 1}
+      maxColor: {r: 1, g: 0.3501042, b: 0.11764705, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

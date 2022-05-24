@@ -15,16 +15,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: ebd3ca197794bb544baebe4c4709d560
   - enabled: 1
-    path: Assets/Scenes/Shirines/ShrineJoao.unity
+    path: Assets/Scenes/Shirines/ShrinesBiribinhas/ShrineJoao.unity
     guid: 930233a3f812f9145975593404422e0d
   - enabled: 1
-    path: Assets/Scenes/Shirines/ShrineEarth.unity
+    path: Assets/Scenes/Shirines/ShrinesBiribinhas/ShrineEarth.unity
     guid: 9252983999cc5854a8fd980ea87ca567
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Shirines/ShrineGenius.unity
+    path: Assets/Scenes/Shirines/ShrinesBiribinhas/ShrineGenius.unity
     guid: 5b927c6491f7d7346b4ded4062a2179c
   - enabled: 1
     path: Assets/Scenes/Cidade1.unity
