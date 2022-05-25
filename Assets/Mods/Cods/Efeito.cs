@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Alavanca : MonoBehaviour
+public class Efeito  : MonoBehaviour
 {
 
     public GameObject Effect;
@@ -15,7 +15,7 @@ public class Alavanca : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Instância o efeito
+        //Instancia o efeito
         Instantiate(Effect, transform.position, transform.rotation);
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Alavanca : MonoBehaviour
+public class Efeito1 : MonoBehaviour
 {
 
     public GameObject Effect;
@@ -21,7 +21,7 @@ public class Alavanca : MonoBehaviour
     {
         if (other.gameObject.tag == "Effect")
         {
-            //Instância o efeito
+            //Inst?cia o efeito
             Instantiate(Effect, transform.position, transform.rotation);
 
         }
