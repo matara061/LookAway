@@ -25,10 +25,11 @@ public class CaoDamage : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("PlayerProjectile"))
+        if (collision.gameObject.CompareTag("Soco") || collision.gameObject.CompareTag("Tiro"))
         {
             lives--;
             cao.Damage();
+            Debug.Log("Dano");
         }
     }
 

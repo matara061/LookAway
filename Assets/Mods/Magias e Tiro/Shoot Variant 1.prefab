@@ -192,6 +192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoot Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2495759667822882759, guid: 6e909a9c5bf381640a51e4cf0bf1a344,
+        type: 3}
+      propertyPath: m_TagString
+      value: IA
+      objectReference: {fileID: 0}
     - target: {fileID: 2962920165577023655, guid: 6e909a9c5bf381640a51e4cf0bf1a344,
         type: 3}
       propertyPath: m_Time

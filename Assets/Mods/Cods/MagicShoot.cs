@@ -31,6 +31,9 @@ public class MagicShoot : MonoBehaviour
     public int lives = 10;
     public MagicShoot iastar;
 
+    public float lookRadius = 20f;
+    public float lookattack = 5f;
+
     public enum States
     {
         pursuit,
@@ -58,13 +61,25 @@ public class MagicShoot : MonoBehaviour
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
 
         // para verificar a visão do ataque. O numero ?a Layer que o player se encontra 
-        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
-        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
+       // playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
+       // playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
 
         //Estados para situações:
         // 1? Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
-        if (!playerInSightRange && !playerInAttackRange) AttackState();
-        if (playerInSightRange && playerInAttackRange) PursuitState();
+        //if (!playerInSightRange && !playerInAttackRange) AttackState();
+       // if (playerInSightRange && playerInAttackRange) PursuitState();
+
+        float distance = Vector3.Distance(target.transform.position, transform.position);// distancia entre IA e o player
+
+        if (distance <= lookattack)
+        {
+            AttackState();
+        }
+        else
+        if (distance <= lookRadius)
+        {
+            PursuitState();
+        }
 
 
     }

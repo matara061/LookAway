@@ -12,6 +12,8 @@ public class MoveChanPhisical : MonoBehaviour
     public float jumpspeed = 8;
     public float gravity = 20;
     public GameObject Devil;
+    public GameObject Efeito;
+    public Transform TargetSoco;
 
     float jumptime;
     float flyvelocity = 3;
@@ -103,6 +105,7 @@ public class MoveChanPhisical : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("PunchA");
+            Instantiate(Efeito, TargetSoco.transform.position, TargetSoco.transform.rotation);
             
         }
 
