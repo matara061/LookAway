@@ -5,15 +5,19 @@ using UnityEngine;
 public class DemonAttack : MonoBehaviour
 {
     public Animator anim;
+
     // Start is called before the first frame update
+
+    
     void Start()
     {
-        
+        this.transform.rotation = Camera.main.transform.rotation;
     }
 
     // Update is called once per frame
     void Update()
     {
+       
         if (Input.GetButtonDown("Fire2"))
         {
             anim.Play("Attack");

@@ -7,27 +7,53 @@ public class ShootPerson : MonoBehaviour
     public GameObject shoot;
     public Transform Target;
     public GameObject Efeito;
-    Rigidbody rb;
 
-    public float FireRate;
-    float nextTimeToFire = 2;
+    public DemonAttack demon;
+    Rigidbody rb;
+    [SerializeField]
+   public GameObject prefab;
+    public float speed = 30;
+
+    public float FireRate = 1;
+    float nextTimeToFire = 1;
     // Start is called before the first frame update
     void Start()
     {
-        rb.GetComponent<Rigidbody>();
+
+       // prefab = Resources.Load("projetil") as GameObject;
+
+       // rb.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Fire2") && Time.time > nextTimeToFire)
         {
+            
+          
+                nextTimeToFire = Time.time + FireRate;
+            // GameObject projetil = Instantiate(prefab) as GameObject;
+            //Instantiate(prefab);
+            // prefab.transform.position = transform.position + Camera.main.transform.forward * 2;
 
-            if (Time.time > nextTimeToFire)
-            {
-                nextTimeToFire = Time.time + 1 / FireRate;
-                Shoot();
-            }
+            // Instantiate(prefab, Camera.main.transform.position, Camera.main.transform.rotation);
+            // prefab.GetComponent<Rigidbody>().AddForce(Vector3.forward * speed, ForceMode.Impulse);
+
+
+            //  Rigidbody rb = prefab.GetComponent<Rigidbody>();
+            Rigidbody rb = Instantiate(prefab, demon.transform.position, demon.transform.rotation).GetComponent<Rigidbody>();
+            rb.velocity = demon.transform.forward * 40;
+          //  prefab.GetComponent<Rigidbody>().AddForceAtPosition(Vector3.forward * speed, transform.up * 10, ForceMode.Acceleration);
+           // rb.AddForceAtPosition(Vector3.forward, -Camera.main.transform.position, ForceMode.Impulse);
+           // rb.AddForceAtPosition(Vector3.forward, -Camera.main.transform.position, ForceMode.Acceleration);
+
+
+            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            rb.AddForce(transform.forward * 32f, ForceMode.Acceleration);
+            rb.AddForce(transform.up * 3, ForceMode.Impulse);
+
+
         }
         
     }
