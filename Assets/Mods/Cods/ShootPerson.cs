@@ -7,6 +7,7 @@ public class ShootPerson : MonoBehaviour
     public GameObject shoot;
     public Transform Target;
     public GameObject Efeito;
+    public Transform ShootPoint;
 
     public DemonAttack demon;
     Rigidbody rb;
@@ -42,16 +43,17 @@ public class ShootPerson : MonoBehaviour
 
 
             //  Rigidbody rb = prefab.GetComponent<Rigidbody>();
-            Rigidbody rb = Instantiate(prefab, demon.transform.position, demon.transform.rotation).GetComponent<Rigidbody>();
-            rb.velocity = demon.transform.forward * 40;
+            Rigidbody rb = Instantiate(prefab, ShootPoint.position, ShootPoint.rotation).GetComponent<Rigidbody>();
+            //rb.velocity = ShootPoint.forward * 40;
+
           //  prefab.GetComponent<Rigidbody>().AddForceAtPosition(Vector3.forward * speed, transform.up * 10, ForceMode.Acceleration);
            // rb.AddForceAtPosition(Vector3.forward, -Camera.main.transform.position, ForceMode.Impulse);
            // rb.AddForceAtPosition(Vector3.forward, -Camera.main.transform.position, ForceMode.Acceleration);
 
 
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.forward * 32f, ForceMode.Acceleration);
-            rb.AddForce(transform.up * 3, ForceMode.Impulse);
+            rb.AddRelativeForce(new Vector3(0,3,40), ForceMode.Impulse);
+            //rb.AddForce(transform.forward * 32f, ForceMode.Acceleration);
+            //rb.AddForce(transform.up * 3, ForceMode.Impulse);
 
 
         }
