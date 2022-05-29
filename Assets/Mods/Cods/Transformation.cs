@@ -19,7 +19,8 @@ public class Transformation : MonoBehaviour
     {
 
 rend=GetComponent<Renderer>();
-rend.enabled = false;
+//rend.enabled = false;
+rend.material = material;
 
     }
 
