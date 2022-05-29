@@ -10,6 +10,9 @@ public class DragonIA : MonoBehaviour
     public Animator anim;
     public GameObject target;
 
+    // public bool attack = false;
+
+    public float flyRadius = 30f;
     public float lookRadius = 20f;
     public float lookattack = 5f;
 
@@ -17,6 +20,7 @@ public class DragonIA : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,12 +31,26 @@ public class DragonIA : MonoBehaviour
         if (distance <= lookattack)
         {
             FaceTarget();
-            anim.Play("Claw Attack");
+            anim.SetBool("player_fo", false);
+            anim.SetBool("player_al", false);
+            anim.SetBool("attack", true);
+          //  anim.Play("Basic Attack");
+            
         }
         else
         if (distance <= lookRadius)
         {
-            anim.Play("Run");
+            anim.SetBool("attack", false);
+            anim.SetBool("player_fo", false);
+            anim.SetBool("player_al", true);
+           // anim.Play("Run");
+            agent.SetDestination(target.transform.position);
+        }else
+            if(distance <= flyRadius)
+        {
+            anim.SetBool("attack", false);
+            anim.SetBool("player_al", false);
+            anim.SetBool("player_fo", true);
             agent.SetDestination(target.transform.position);
         }
     }
@@ -51,6 +69,9 @@ public class DragonIA : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, lookRadius);
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookattack);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, flyRadius);
+
     }
 
     public void Dead()
