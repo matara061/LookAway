@@ -61,4 +61,22 @@ public class IAinimigoAkira : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, LookAttack);
     }
+
+    public void Dead()
+    {
+
+        anim.SetBool("attack", false);
+        anim.SetBool("player_al", false);
+        anim.SetBool("player_fo", false);
+        anim.SetTrigger("die");
+
+    }
+
+    public void Damage()
+    {
+
+        anim.SetTrigger("hit");
+
+    }
+    
 }
