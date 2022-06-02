@@ -76,11 +76,16 @@ public class DragonIA : MonoBehaviour
 
     public void Dead()
     {
-        anim.Play("die");
+        anim.SetBool("attack", false);
+        anim.SetBool("player_fo", false);
+        anim.SetBool("player_al", false);
+        anim.SetTrigger("die");
+        //anim.Play("die");
     }
 
     public void Damage()
     {
-        anim.Play("Get Hit");
+        anim.SetTrigger("hit");
+       // anim.Play("Get Hit");
     }
 }
