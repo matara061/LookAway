@@ -26,7 +26,7 @@ public class MagicShoot : MonoBehaviour
     public float FireRate;
     float nextTimeToFire = 2;
 
-    
+
     public float velocidade = 1000f;
     public int lives = 10;
     public MagicShoot iastar;
@@ -47,7 +47,8 @@ public class MagicShoot : MonoBehaviour
 
     void Start()
     {
-
+        anim = GetComponent<Animator>();
+        anim.enabled = true;
     }
 
     //Só para ter certeza de que vai encontrar o player
@@ -60,14 +61,6 @@ public class MagicShoot : MonoBehaviour
         StateMachine();
         anim.SetFloat("Velocidade", agent.velocity.magnitude);
 
-        // para verificar a visão do ataque. O numero ?a Layer que o player se encontra 
-       // playerInSightRange = Physics.CheckSphere(transform.position, sightRange, 6);
-       // playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, 6);
-
-        //Estados para situações:
-        // 1? Caso o player esteja dentro do alcance de visão, mas não no de ataque, a IA deve persegui-lo.
-        //if (!playerInSightRange && !playerInAttackRange) AttackState();
-       // if (playerInSightRange && playerInAttackRange) PursuitState();
 
         float distance = Vector3.Distance(target.transform.position, transform.position);// distancia entre IA e o player
 
@@ -78,7 +71,7 @@ public class MagicShoot : MonoBehaviour
         else
         if (distance <= lookRadius)
         {
-            PursuitState();
+            StoppedState();
         }
 
 
@@ -136,15 +129,17 @@ public class MagicShoot : MonoBehaviour
 
 
 
-    void PursuitState() 
+    void PursuitState()
     {
         agent.isStopped = false;
         agent.destination = target.transform.position;
         anim.SetBool("attack_short_001", false);
-        anim.SetBool("damage_001", false);
+        //anim.SetBool("move_forward_fast", true);
+        anim.SetBool("idle_combat", false);
+        //anim.SetBool("damage_001", false);
         //Debug.Log("perseguindo");
 
-        
+
         if (Vector3.Distance(transform.position, target.transform.position) < 30)
         {
             state = States.atacking;
@@ -155,9 +150,14 @@ public class MagicShoot : MonoBehaviour
     void AttackState()
     {
         agent.isStopped = true;
+        //anim.SetBool("damage_001", false);
         anim.SetBool("attack_short_001", true);
-        anim.Play("attack_short_001");
-        anim.SetBool("damage_001", false);
+        //anim.SetBool("move_forward_fast", false);
+         anim.Play("attack_short_001");
+
+        // anim.Stop();
+
+
         //Debug.Log("atacando");
 
         if (Time.time > nextTimeToFire)
@@ -169,9 +169,9 @@ public class MagicShoot : MonoBehaviour
         if (Vector3.Distance(transform.position, target.transform.position) > 4)
         {
             state = States.pursuit;
-        
+
         }
-       
+
 
 
     }
@@ -181,6 +181,9 @@ public class MagicShoot : MonoBehaviour
         agent.isStopped = true;
         anim.SetBool("attack_short_001", false);
         anim.SetBool("damage_001", false);
+        anim.SetBool("move_forward_fast", false);
+        anim.SetBool("idle_combat", true);
+
     }
 
     void DeadState()
@@ -194,6 +197,7 @@ public class MagicShoot : MonoBehaviour
     void DamageState()
     {
         agent.isStopped = true;
+        //anim.SetBool("attack_short_001", false);
         anim.SetBool("damage_001", true);
     }
 
@@ -209,18 +213,19 @@ public class MagicShoot : MonoBehaviour
             lives--;
             DamageState();
             anim.Play("damage_001");
+
             Debug.Log("Berserker");
             GameObject shoot = Instantiate(projetil, TargetShoot.transform.position, TargetShoot.transform.rotation);
             shoot.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(velocidade, 10, 10));
             rb.AddForce(transform.up * 10f, ForceMode.Impulse);
             FireRate = 20f;
         }
-      
+
     }
 
     private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar
     {
-        if (collider.gameObject.tag == "Player") 
+        if (collider.gameObject.tag == "Player")
         {
             state = States.stoped;
             InvokeRepeating("Shoot", 1.0f, 2.0f);//pra ele ficar repetindo o tiro enquanto parado
@@ -236,7 +241,7 @@ public class MagicShoot : MonoBehaviour
     }
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Tiro"))
+        if (collision.gameObject.CompareTag("Tiro") || collision.gameObject.CompareTag("Soco"))
         {
             lives--;
             Instantiate(Efeito2, transform.position, transform.rotation);

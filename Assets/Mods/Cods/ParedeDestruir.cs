@@ -5,6 +5,7 @@ using UnityEngine;
 public class ParedeDestruir : MonoBehaviour
 {
     public static int des=0;
+    public GameObject efeito;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class ParedeDestruir : MonoBehaviour
         }
         else if (des == 1) 
         {
+            Instantiate(efeito, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
