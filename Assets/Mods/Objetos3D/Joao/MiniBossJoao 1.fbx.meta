@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56866cdfb414d1e4c8f6336f849fa686
+guid: 57a24151150c3e44ebbaf8eea941050c
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -22,7 +22,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 91c6c7c605c85d64390e00ed714bfbbe, type: 2}
+    second: {fileID: 2100000, guid: c4ac5ed00f40bdc46bbfcfa21b279e77, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -69,7 +69,7 @@ ModelImporter:
       name: Icosphere|IcosphereAction (1)
       takeName: Icosphere|IcosphereAction
       internalID: 0
-      firstFrame: 0
+      firstFrame: 5
       lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
@@ -177,7 +177,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
