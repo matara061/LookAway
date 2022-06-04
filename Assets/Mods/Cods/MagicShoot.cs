@@ -6,33 +6,39 @@ using UnityEngine.AI;
 public class MagicShoot : MonoBehaviour
 {
 
-    // Talvez um public Transform player para melhorar a persegui豫o
+    //Perseguição
     public GameObject target;
     public Transform TargetShoot;
+    public float velocidade = 1000f;
 
-    public GameObject projetil; //Lembrete
     public NavMeshAgent agent;
     public Animator anim;
     public SkinnedMeshRenderer render;
-
-    // Teste Para o Tiro da IA
-    public float sightRange, attackRange;
-    public bool playerInSightRange, playerInAttackRange; // acaba aqui
-    public bool allowInvoke = true;
-
-    public GameObject Efeito;
-    public GameObject Efeito2;
-    public GameObject Efeito3;
-    public float FireRate;
-    float nextTimeToFire = 2;
-
-
-    public float velocidade = 1000f;
-    public int lives = 10;
     public MagicShoot iastar;
 
+    //  Tiro da IA
+    public float sightRange, attackRange;
+    public float FireRate;
+
+    float nextTimeToFire = 2;
+    public GameObject projetil;
     public float lookRadius = 20f;
     public float lookattack = 5f;
+    //public bool playerInSightRange, playerInAttackRange; // acaba aqui
+    //public bool allowInvoke = true;
+
+    //Efeitos
+    public GameObject Efeito;  // tiro
+    public GameObject Efeito2; // dano
+    public GameObject Efeito3; // dano
+
+    //Habilidades
+    
+    public BoxCollider EspinhoDeGelo;
+
+    //Vida
+    public int lives = 10;
+
 
     public enum States
     {
@@ -49,13 +55,9 @@ public class MagicShoot : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.enabled = true;
+        EspinhoDeGelo.enabled = false;
     }
 
-    //Só para ter certeza de que vai encontrar o player
-    private void Awake()
-    {
-        //target = GameObject.Find("unitychan Phisical");
-    }
     void Update()
     {
         StateMachine();
@@ -71,7 +73,7 @@ public class MagicShoot : MonoBehaviour
         else
         if (distance <= lookRadius)
         {
-            StoppedState();
+            PursuitState();
         }
 
 
@@ -151,7 +153,7 @@ public class MagicShoot : MonoBehaviour
     {
         agent.isStopped = true;
         //anim.SetBool("damage_001", false);
-        anim.SetBool("attack_short_001", true);
+        //anim.SetBool("attack_short_001", true);
         //anim.SetBool("move_forward_fast", false);
          anim.Play("attack_short_001");
 
@@ -179,10 +181,10 @@ public class MagicShoot : MonoBehaviour
     void StoppedState()
     {
         agent.isStopped = true;
-        anim.SetBool("attack_short_001", false);
+        //anim.SetBool("attack_short_001", false);
         anim.SetBool("damage_001", false);
-        anim.SetBool("move_forward_fast", false);
-        anim.SetBool("idle_combat", true);
+        //anim.SetBool("move_forward_fast", false);
+        //anim.SetBool("idle_combat", true);
 
     }
 
@@ -208,6 +210,11 @@ public class MagicShoot : MonoBehaviour
         rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
 
+        if (lives == 9)
+        {
+            EspinhosDeGelo();
+        }
+
         if (lives <= 2)
         {
             lives--;
@@ -221,6 +228,12 @@ public class MagicShoot : MonoBehaviour
             FireRate = 20f;
         }
 
+    }
+
+    void EspinhosDeGelo()
+    {
+        EspinhoDeGelo.enabled = true;
+        Debug.Log("Descongelou");
     }
 
     private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar

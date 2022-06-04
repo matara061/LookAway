@@ -29,7 +29,7 @@ public class ShootPerson : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire2") && Time.time > nextTimeToFire)
+        if (Input.GetButtonDown("Fire2"))
         {
             
           
@@ -51,7 +51,7 @@ public class ShootPerson : MonoBehaviour
            // rb.AddForceAtPosition(Vector3.forward, -Camera.main.transform.position, ForceMode.Acceleration);
 
 
-            rb.AddRelativeForce(new Vector3(0,3,40), ForceMode.Impulse);
+            rb.AddRelativeForce(new Vector3(1,5,32), ForceMode.Impulse);
             //rb.AddForce(transform.forward * 32f, ForceMode.Acceleration);
             //rb.AddForce(transform.up * 3, ForceMode.Impulse);
 
@@ -64,9 +64,9 @@ public class ShootPerson : MonoBehaviour
     {
         Instantiate(Efeito, Target.transform.position, Target.transform.rotation);
         Rigidbody rb = Instantiate(shoot, Target.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-        rb.AddForce(transform.forward * 32f, ForceMode.Acceleration);
+        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 24f, ForceMode.Acceleration);
         //rb.AddForce(transform.forward * 32f, ForceMode.VelocityChange);
-        rb.AddForce(transform.up * 1, ForceMode.Impulse);
+        rb.AddForce(transform.up * 1.5f, ForceMode.Impulse);
     }
 }
