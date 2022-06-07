@@ -212,6 +212,11 @@ public class MoveChanPhisical : MonoBehaviour
             closeThing.transform.position= collision.GetContact(0).point;
 
         }
+        if (collision.gameObject.tag == "Pula")
+        {
+
+            rdb.AddForce(Vector3.up * 50f * 50f);
+        }
 
     }
     private void OnCollisionExit(Collision collision)

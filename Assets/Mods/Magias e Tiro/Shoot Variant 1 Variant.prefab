@@ -14,7 +14,12 @@ PrefabInstance:
     - target: {fileID: 4753869952089006312, guid: 94f654d585c817d498c5f2c8078fd545,
         type: 3}
       propertyPath: m_Name
-      value: Shoot Variant 1
+      value: Shoot Variant 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5351951498327633800, guid: 94f654d585c817d498c5f2c8078fd545,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5382631841949514322, guid: 94f654d585c817d498c5f2c8078fd545,
         type: 3}

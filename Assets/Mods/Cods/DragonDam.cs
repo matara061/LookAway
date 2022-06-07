@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DragonDam : MonoBehaviour
 {
-    public int lives = 10;
+    public int lives = 20;
     public DragonIA dragon;
     // Start is called before the first frame update
     void Start()
@@ -33,8 +33,5 @@ public class DragonDam : MonoBehaviour
         }
     }
 
-    public void ExplosionDamage()
-    {
-        lives = -1;
-    }
+    
 }

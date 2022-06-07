@@ -10,6 +10,7 @@ TagManager:
   - Item
   - IA
   - Tiro
+  - Pula
   layers:
   - Default
   - TransparentFX
