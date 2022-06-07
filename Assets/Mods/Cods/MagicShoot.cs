@@ -33,8 +33,12 @@ public class MagicShoot : MonoBehaviour
     public GameObject Efeito3; // dano
 
     //Habilidades
-    
-    public BoxCollider EspinhoDeGelo;
+
+    public BoxCollider AtivarEspinho;
+    //public EspinhosDeGelo espinhos;
+    public Transform Ponto;
+    public GameObject Minion;
+
 
     //Vida
     public int lives = 10;
@@ -55,7 +59,9 @@ public class MagicShoot : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.enabled = true;
-        EspinhoDeGelo.enabled = false;
+        AtivarEspinho.enabled = false;
+        //espinhos.enabled = false;
+        
     }
 
     void Update()
@@ -210,11 +216,6 @@ public class MagicShoot : MonoBehaviour
         rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
 
-        if (lives == 9)
-        {
-            EspinhosDeGelo();
-        }
-
         if (lives <= 2)
         {
             lives--;
@@ -232,8 +233,14 @@ public class MagicShoot : MonoBehaviour
 
     void EspinhosDeGelo()
     {
-        EspinhoDeGelo.enabled = true;
+        AtivarEspinho.enabled = true;
+        //espinhos.enabled = true;
         Debug.Log("Descongelou");
+    }
+
+    void Minions()
+    {
+        Instantiate(Minion, Ponto.transform.position, Ponto.transform.rotation);
     }
 
     private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar
@@ -263,6 +270,19 @@ public class MagicShoot : MonoBehaviour
             Debug.Log("Toma dano");
 
         }
+
+
+        if (lives == 9)
+        {
+            EspinhosDeGelo();
+        }
+
+        if(lives == 8)
+        {
+            Minions();
+        }
+
+
         if (lives < 0)
         {
             iastar.Dead();
