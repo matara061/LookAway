@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44354078, g: 0.49284703, b: 0.57243824, a: 1}
+  m_IndirectSpecularColor: {r: 0.4435394, g: 0.49284565, b: 0.57243705, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1649,9 +1649,18 @@ MonoBehaviour:
   agent: {fileID: 296955966}
   anim: {fileID: 296955961}
   target: {fileID: 1068687334}
+  dam: {fileID: 0}
+  TargetShoot: {fileID: 0}
+  projetil: {fileID: 0}
+  projetil2: {fileID: 0}
+  projetil3: {fileID: 0}
+  FireRate: 0
   flyRadius: 60
   lookRadius: 35.37
   lookattack: 10
+  Efeito: {fileID: 0}
+  Efeito2: {fileID: 0}
+  Efeito3: {fileID: 0}
 --- !u!114 &296955963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9174,25 +9183,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1068687334}
   TargetShoot: {fileID: 1459811431}
-  projetil: {fileID: 4753869952089006312, guid: 94f654d585c817d498c5f2c8078fd545,
-    type: 3}
+  velocidade: 50
   agent: {fileID: 788729742}
   anim: {fileID: 788729738}
   render: {fileID: 967814802}
+  iastar: {fileID: 788729741}
   sightRange: 10
   attackRange: 10
-  playerInSightRange: 0
-  playerInAttackRange: 0
-  allowInvoke: 1
+  FireRate: 0.75
+  projetil: {fileID: 4753869952089006312, guid: 94f654d585c817d498c5f2c8078fd545,
+    type: 3}
+  lookRadius: 20
+  lookattack: 5
   Efeito: {fileID: 1687118924408352, guid: 77c69ec12208c4c4380d15e30b6f8f68, type: 3}
   Efeito2: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
   Efeito3: {fileID: 1134129239631916, guid: 7e48ba6b1b968764490bbc70b66e3fe1, type: 3}
-  FireRate: 0.75
-  velocidade: 50
+  AtivarEspinho: {fileID: 0}
+  Ponto: {fileID: 0}
+  Minion: {fileID: 0}
   lives: 10
-  iastar: {fileID: 788729741}
-  lookRadius: 20
-  lookattack: 5
   state: 0
 --- !u!195 &788729742
 NavMeshAgent:
@@ -17665,6 +17674,20 @@ MonoBehaviour:
   flyRadius: 23
   lookRadius: 15
   lookattack: 5
+--- !u!114 &2050471852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050471847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3729d37f753fab4eafd81299ec2d7d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 15
+  dragon: {fileID: 2050471851}
 --- !u!4 &2101422047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8802130219495047780, guid: 40daa8e1b273a644f81288fa519caf50,
