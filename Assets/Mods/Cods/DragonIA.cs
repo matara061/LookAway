@@ -10,11 +10,21 @@ public class DragonIA : MonoBehaviour
     public Animator anim;
     public GameObject target;
 
+    public Transform TargetShoot;
+    public GameObject projetil;
+    float nextTimeToFire = 2;
+    public float FireRate;
+
     // public bool attack = false;
 
     public float flyRadius = 30f;
     public float lookRadius = 20f;
     public float lookattack = 5f;
+
+    //Efeitos
+    public GameObject Efeito;  
+    public GameObject Efeito2;
+    public GameObject Efeito3;
 
     // Start is called before the first frame update
     void Start()
@@ -28,29 +38,37 @@ public class DragonIA : MonoBehaviour
     {
         float distance = Vector3.Distance(target.transform.position, transform.position);// distancia entre IA e o player
 
-        if (distance <= lookattack)
+        //  if (distance <= lookattack)
+        //  {
+        //      FaceTarget();
+        //      anim.SetBool("player_fo", false);
+        //      anim.SetBool("player_al", false);
+        //      anim.SetBool("attack", true);
+        //    //  anim.Play("Basic Attack");
+        //      
+        //  }
+        //  else
+        if (distance <= lookRadius) // raio amarelo ataque de longe
         {
             FaceTarget();
             anim.SetBool("player_fo", false);
-            anim.SetBool("player_al", false);
-            anim.SetBool("attack", true);
-          //  anim.Play("Basic Attack");
-            
+            agent.speed = 0;
+            agent.acceleration = 0;
+            if (Time.time > nextTimeToFire)
+            {
+                nextTimeToFire = Time.time + 1 / FireRate;
+                anim.SetBool("attack", true);
+                Shoot();
+            }
         }
         else
-        if (distance <= lookRadius)
+            if (distance <= flyRadius) // raio azul apenas voar 
         {
             anim.SetBool("attack", false);
-            anim.SetBool("player_fo", false);
-            anim.SetBool("player_al", true);
-           // anim.Play("Run");
-            agent.SetDestination(target.transform.position);
-        }else
-            if(distance <= flyRadius)
-        {
-            anim.SetBool("attack", false);
-            anim.SetBool("player_al", false);
+            // anim.SetBool("player_al", false);
             anim.SetBool("player_fo", true);
+            agent.speed = 500;
+            agent.acceleration = 100;
             agent.SetDestination(target.transform.position);
         }
     }
@@ -80,12 +98,18 @@ public class DragonIA : MonoBehaviour
         anim.SetBool("player_fo", false);
         anim.SetBool("player_al", false);
         anim.SetTrigger("die");
-        //anim.Play("die");
     }
 
     public void Damage()
     {
         anim.SetTrigger("hit");
-       // anim.Play("Get Hit");
+    }
+
+    public void Shoot()
+    {
+        //Instantiate(Efeito, TargetShoot.transform.position, TargetShoot.transform.rotation);
+        Rigidbody rb = Instantiate(projetil, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 }
