@@ -42,7 +42,7 @@ public class DragonIA : MonoBehaviour
     {
         float distance = Vector3.Distance(target.transform.position, transform.position);// distancia entre IA e o player
 
-        agent.stoppingDistance = lookRadius - 7;
+        agent.stoppingDistance = lookRadius;
 
           if (distance <= lookattack) // raio vermelho tiro de perto
           {
@@ -59,15 +59,18 @@ public class DragonIA : MonoBehaviour
           else
         if (distance <= lookRadius) // raio amarelo ataque de longe
         {
-            FaceTarget();
-            anim.SetBool("player_fo", false);
+           // Debug.Log(lookRadius);
+           // Debug.Log(distance);
             agent.speed = 0;
             agent.acceleration = 0;
+            anim.SetBool("player_fo", false);
+            //FaceTarget();
             if(dam.lives >= 10) // padrao de ataque mais da metade da vida 
             {
                 if (Time.time > nextTimeToFire)
                 {
                     nextTimeToFire = Time.time + 1 / FireRate;
+                    FaceTarget();
                     anim.SetBool("attack", true);
                     Shoot();
                 }
