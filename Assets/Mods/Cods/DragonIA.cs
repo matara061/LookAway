@@ -130,42 +130,42 @@ public class DragonIA : MonoBehaviour
     public void Shoot()
     {
         Rigidbody rb = Instantiate(projetil, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 40f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
     public void Efect()
     {
         Rigidbody rb = Instantiate(Efeito, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 40f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
     public void Shoot2()
     {
         Rigidbody rb = Instantiate(projetil2, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
     public void Efect2()
     {
         Rigidbody rb = Instantiate(Efeito2, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
     public void NearShoot()
     {
         Rigidbody rb = Instantiate(projetil3, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
-    public void Efect3()
+    public void Efect3() // deve estar atitando para cima
     {
         Rigidbody rb = Instantiate(Efeito3, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 35f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 }
