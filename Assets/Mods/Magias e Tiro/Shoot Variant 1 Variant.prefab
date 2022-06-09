@@ -81,25 +81,11 @@ PrefabInstance:
       propertyPath: Efeito
       value: 
       objectReference: {fileID: 100002, guid: a590c04abd57be544b50a1b51a6674ac, type: 3}
+    - target: {fileID: 7176523427222187579, guid: 94f654d585c817d498c5f2c8078fd545,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 186468623, guid: 94f654d585c817d498c5f2c8078fd545, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94f654d585c817d498c5f2c8078fd545, type: 3}
---- !u!1 &3003805369224487299 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4753869952089006312, guid: 94f654d585c817d498c5f2c8078fd545,
-    type: 3}
-  m_PrefabInstance: {fileID: 7518349018978730347}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1844707635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3003805369224487299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 275651a743e92ca4ea80d6e1851a9630, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Efeito: {fileID: 100002, guid: a590c04abd57be544b50a1b51a6674ac, type: 3}

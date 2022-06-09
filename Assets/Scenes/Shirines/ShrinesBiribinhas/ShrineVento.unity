@@ -463,7 +463,6 @@ GameObject:
   - component: {fileID: 297207703}
   - component: {fileID: 297207702}
   - component: {fileID: 297207706}
-  - component: {fileID: 297207707}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Pula
@@ -561,19 +560,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &297207707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297207701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed9c44613dc5d8f44b50e54bd710829a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1475233584}
 --- !u!1 &380960164
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +677,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 4.87
-  m_Speed: 15
+  m_Speed: 500
   m_Acceleration: 100
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -744,9 +730,9 @@ MonoBehaviour:
   flyRadius: 172.81
   lookRadius: 55.4
   lookattack: 10
-  Efeito: {fileID: 0}
-  Efeito2: {fileID: 0}
-  Efeito3: {fileID: 0}
+  Efeito: {fileID: 100002, guid: a590c04abd57be544b50a1b51a6674ac, type: 3}
+  Efeito2: {fileID: 100000, guid: 2c557f8333c64984790ab0461bed7113, type: 3}
+  Efeito3: {fileID: 100004, guid: d205bba4d197a5f45a64abfcc6123c20, type: 3}
 --- !u!135 &412391407
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1401,6 +1387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortaPuzzle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d48a4335d2dbd542b72beff129db36f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d48a4335d2dbd542b72beff129db36f, type: 3}
 --- !u!1001 &554680856
@@ -1824,6 +1815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortaPuzzle (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d48a4335d2dbd542b72beff129db36f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d48a4335d2dbd542b72beff129db36f, type: 3}
@@ -2266,8 +2262,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725778544}
-  m_LocalRotation: {x: -0.028145222, y: 0.96466595, z: -0.11545992, w: -0.23515198}
-  m_LocalPosition: {x: -130.7787, y: 4.11, z: 0.88476086}
+  m_LocalRotation: {x: 0.118480705, y: -0.07724268, z: 0.009244989, w: 0.9899043}
+  m_LocalPosition: {x: -132.91418, y: 4.11, z: 15.564726}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 554680859}
@@ -2483,6 +2479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortaPuzzle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d48a4335d2dbd542b72beff129db36f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d48a4335d2dbd542b72beff129db36f, type: 3}
 --- !u!1 &968000657
@@ -2560,7 +2561,7 @@ GameObject:
   - component: {fileID: 974644160}
   m_Layer: 0
   m_Name: shoot
-  m_TagString: Untagged
+  m_TagString: Tiro
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2595,7 +2596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!215 &1003964814
 ReflectionProbe:
   m_ObjectHideFlags: 0
@@ -2851,7 +2852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6f43b7231d70da048b9effba0fac5c8d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f43b7231d70da048b9effba0fac5c8d, type: 3}
       propertyPath: m_RootOrder
@@ -2993,7 +2994,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156856332}
-  m_LocalRotation: {x: 0.0281452, y: -0.964666, z: 0.11545992, w: 0.23515196}
+  m_LocalRotation: {x: 0.11848069, y: -0.07724269, z: 0.00924506, w: 0.9899043}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3306,7 +3307,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 2
+    m_MaxSpeed: 8
     m_AccelTime: 0.2
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -3330,7 +3331,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 350
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -3377,7 +3378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262269567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -130.7787, y: 4.11, z: 0.88476086}
+  m_LocalPosition: {x: -132.91418, y: 4.11, z: 15.564726}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1156856334}
@@ -3452,7 +3453,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283816123}
-  m_LocalRotation: {x: 0.028144961, y: -0.964666, z: 0.11545997, w: 0.23515195}
+  m_LocalRotation: {x: 0.118480675, y: -0.07724271, z: 0.009245251, w: 0.9899043}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3541,6 +3542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortaPuzzle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d48a4335d2dbd542b72beff129db36f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d48a4335d2dbd542b72beff129db36f, type: 3}
@@ -4000,7 +4006,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
   serializedVersion: 3
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 1
   m_RealtimeEnvironmentLighting: 0
@@ -4232,7 +4238,7 @@ PrefabInstance:
     - target: {fileID: 8802130219495047684, guid: 40daa8e1b273a644f81288fa519caf50,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.33
+      value: 22.48
       objectReference: {fileID: 0}
     - target: {fileID: 8802130219495047684, guid: 40daa8e1b273a644f81288fa519caf50,
         type: 3}
@@ -5044,6 +5050,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8802130219495088100, guid: 40daa8e1b273a644f81288fa519caf50,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8802130219495088102, guid: 40daa8e1b273a644f81288fa519caf50,
         type: 3}
       propertyPath: m_Layer
@@ -5424,12 +5435,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1475233531}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1475233584 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 566885336, guid: 40daa8e1b273a644f81288fa519caf50,
-    type: 3}
-  m_PrefabInstance: {fileID: 1475233531}
+--- !u!114 &1475233585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475233532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9c44613dc5d8f44b50e54bd710829a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1494308092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6032,7 +6049,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836891046}
-  m_LocalRotation: {x: 0.028145216, y: -0.964666, z: 0.11545988, w: 0.23515195}
+  m_LocalRotation: {x: 0.1184807, y: -0.07724268, z: 0.009244978, w: 0.9899043}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6307,7 +6324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1545806602296978, guid: 9e4577abe56a95f4a91d29a0473cd30c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4464497929771776, guid: 9e4577abe56a95f4a91d29a0473cd30c, type: 3}
       propertyPath: m_RootOrder

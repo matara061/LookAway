@@ -5,11 +5,11 @@ using UnityEngine;
 public class Pular : MonoBehaviour
 {
 
-    public Rigidbody rb;
+    Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-        
+       rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -18,12 +18,13 @@ public class Pular : MonoBehaviour
         
     }
 
-   // private void OnCollisionEnter(Collision collision)
-   // {
-   //     if(collision.gameObject.tag == "Player")
-   //     {
-   //
-   //         rb.AddForce(transform.up * 20f, ForceMode.Impulse);
-   //     }
-   // }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Pula")
+        {
+            //Debug.Log("pula");
+   
+            rb.AddForce(transform.up * 80f, ForceMode.VelocityChange);
+        }
+    }
 }

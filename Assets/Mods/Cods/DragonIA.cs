@@ -26,15 +26,17 @@ public class DragonIA : MonoBehaviour
     public float lookattack = 5f;
 
     //Efeitos
-    public GameObject Efeito;  
-    public GameObject Efeito2;
-    public GameObject Efeito3;
+    public GameObject Efeito; // tiro bola de fogo
+    public GameObject Efeito2; // tiro raio
+    public GameObject Efeito3; // tiro de perto
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+
+        agent.stoppingDistance = lookRadius - 3;
     }
 
     // Update is called once per frame
@@ -42,57 +44,53 @@ public class DragonIA : MonoBehaviour
     {
         float distance = Vector3.Distance(target.transform.position, transform.position);// distancia entre IA e o player
 
-        agent.stoppingDistance = lookRadius;
 
-          if (distance <= lookattack) // raio vermelho tiro de perto
-          {
-              FaceTarget();
-              anim.SetBool("player_fo", false);
-             // anim.SetBool("player_al", false);
+        if (distance <= lookattack) // raio vermelho tiro de perto
+        {
+            FaceTarget();
+            anim.SetBool("player_fo", false);
+            // anim.SetBool("player_al", false);
             if (Time.time > nextTimeToFire)
             {
                 nextTimeToFire = Time.time + 1 / FireRate;
                 anim.SetBool("attack", true);
+                Efect3();
                 NearShoot();
             }
         }
-          else
-        if (distance <= lookRadius) // raio amarelo ataque de longe
+        else
+      if (distance <= lookRadius) // raio amarelo ataque de longe
         {
-           // Debug.Log(lookRadius);
-           // Debug.Log(distance);
-            agent.speed = 0;
-            agent.acceleration = 0;
             anim.SetBool("player_fo", false);
-            //FaceTarget();
-            if(dam.lives >= 10) // padrao de ataque mais da metade da vida 
+            FaceTarget();
+            if (dam.lives >= 10) // padrao de ataque mais da metade da vida 
             {
                 if (Time.time > nextTimeToFire)
                 {
                     nextTimeToFire = Time.time + 1 / FireRate;
-                    FaceTarget();
+                   // FaceTarget();
                     anim.SetBool("attack", true);
+                    Efect();
                     Shoot();
                 }
-            }else
-                if(dam.lives < 10) // padrao de ataque menos da metade da vida 
+            } else
+                if (dam.lives < 10) // padrao de ataque menos da metade da vida 
             {
                 if (Time.time > nextTimeToFire)
                 {
                     nextTimeToFire = Time.time + 1 / FireRate;
                     anim.SetBool("attack", true);
+                    Efect2();
                     Shoot2();
                 }
             }
         }
         else
-            if (distance <= flyRadius) // raio azul apenas voar 
+          if (distance <= flyRadius) // raio azul apenas voar 
         {
             anim.SetBool("attack", false);
             // anim.SetBool("player_al", false);
             anim.SetBool("player_fo", true);
-            agent.speed = 500;
-            agent.acceleration = 100;
             agent.SetDestination(target.transform.position);
         }
     }
@@ -120,7 +118,7 @@ public class DragonIA : MonoBehaviour
     {
         anim.SetBool("attack", false);
         anim.SetBool("player_fo", false);
-       // anim.SetBool("player_al", false);
+        // anim.SetBool("player_al", false);
         anim.SetTrigger("die");
     }
 
@@ -131,10 +129,15 @@ public class DragonIA : MonoBehaviour
 
     public void Shoot()
     {
-        //Instantiate(Efeito, TargetShoot.transform.position, TargetShoot.transform.rotation);
-      //  Debug.Log("atiro");
         Rigidbody rb = Instantiate(projetil, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.forward * 40f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
+    }
+
+    public void Efect()
+    {
+        Rigidbody rb = Instantiate(Efeito, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * 40f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
@@ -145,9 +148,23 @@ public class DragonIA : MonoBehaviour
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
 
+    public void Efect2()
+    {
+        Rigidbody rb = Instantiate(Efeito2, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
+    }
+
     public void NearShoot()
     {
         Rigidbody rb = Instantiate(projetil3, TargetShoot.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
+    }
+
+    public void Efect3()
+    {
+        Rigidbody rb = Instantiate(Efeito3, TargetShoot.transform.position, TargetShoot.transform.rotation).GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * 24f, ForceMode.Impulse);
         rb.AddForce(transform.up * 0.5f, ForceMode.Impulse);
     }
