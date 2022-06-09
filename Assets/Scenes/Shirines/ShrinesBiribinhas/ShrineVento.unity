@@ -2994,7 +2994,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156856332}
-  m_LocalRotation: {x: 0.1184807, y: -0.077242695, z: 0.009245061, w: 0.9899043}
+  m_LocalRotation: {x: 0.11848069, y: -0.07724269, z: 0.00924506, w: 0.9899043}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6515,6 +6515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MinionNav
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183047399533410088, guid: 39e1e48cb1580304db909af6e977e13d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39e1e48cb1580304db909af6e977e13d, type: 3}
