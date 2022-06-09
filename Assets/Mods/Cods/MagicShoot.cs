@@ -36,7 +36,10 @@ public class MagicShoot : MonoBehaviour
 
     public BoxCollider AtivarEspinho;
     //public EspinhosDeGelo espinhos;
-    public Transform Ponto;
+    public GameObject Ponto;
+    public GameObject Ponto1;
+    public GameObject Ponto2;
+    public GameObject Ponto3;
     public GameObject Minion;
 
 
@@ -238,9 +241,20 @@ public class MagicShoot : MonoBehaviour
         Debug.Log("Descongelou");
     }
 
-    void Minions()
+   IEnumerator Minions()
     {
+        
         Instantiate(Minion, Ponto.transform.position, Ponto.transform.rotation);
+        Instantiate(Minion, Ponto1.transform.position, Ponto.transform.rotation);
+        Instantiate(Minion, Ponto2.transform.position, Ponto.transform.rotation);
+        Instantiate(Minion, Ponto3.transform.position, Ponto.transform.rotation);
+
+        yield return new WaitForSeconds(3f);
+
+        Destroy(Ponto);
+        Destroy(Ponto1);
+        Destroy(Ponto2);
+        Destroy(Ponto3);
     }
 
     private void OnTriggerEnter(Collider collider)//collider para saber quandoo boneco deve parar
@@ -279,7 +293,7 @@ public class MagicShoot : MonoBehaviour
 
         if(lives == 8)
         {
-            Minions();
+            StartCoroutine(Minions());
         }
 
 
