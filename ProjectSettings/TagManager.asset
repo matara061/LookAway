@@ -11,6 +11,8 @@ TagManager:
   - IA
   - Tiro
   - Pula
+  - mao2
+  - mao1
   layers:
   - Default
   - TransparentFX
