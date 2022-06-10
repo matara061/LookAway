@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -342,6 +342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MiniBossJoao 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 57a24151150c3e44ebbaf8eea941050c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57a24151150c3e44ebbaf8eea941050c, type: 3}
@@ -1826,6 +1831,75 @@ Transform:
   m_Father: {fileID: 1128363106}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &976531444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecc6c6fbc4696444aad272269a020a48,
+        type: 3}
+      propertyPath: m_Name
+      value: MiniomBossBall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecc6c6fbc4696444aad272269a020a48, type: 3}
 --- !u!1 &981973081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +2362,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089603672}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!137 &1106122114 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8753619234855012134, guid: e812c04705f47d645beb13e90ec0ff93,
+    type: 3}
+  m_PrefabInstance: {fileID: 1875027257}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1128363103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,6 +2534,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1138350513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecc6c6fbc4696444aad272269a020a48,
+    type: 3}
+  m_PrefabInstance: {fileID: 976531444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1138350514
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138350513}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 428e7f03078dc834dbf35783b082c6c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &1138350515
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138350513}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1217873428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,6 +3054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NaveMinionBoss
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 473e815ae1d4a054181cb8c62bee242c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 473e815ae1d4a054181cb8c62bee242c, type: 3}
 --- !u!1 &1459539271 stripped
@@ -3252,7 +3376,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776448683}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9992d5267d32844997fe70bfccd30d0, type: 3}
   m_Name: 
@@ -3312,13 +3436,30 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776448683}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89aa8bda247201f48a11dec2ab463f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _character: {fileID: 1776448684}
-  _rotationSpeed: 0
+  _rotationSpeed: 3
+--- !u!114 &1776448690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776448683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f84c57c399d7d40a3e23a50ce7467c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2143757203}
+  agent: {fileID: 1776448685}
+  anim: {fileID: 1776448686}
+  render: {fileID: 1106122114}
+  state: 0
 --- !u!54 &1776448691
 Rigidbody:
   m_ObjectHideFlags: 0
